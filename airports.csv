@@ -1,0 +1,101 @@
+list,rank,name,city,country,worldworthy_score,page_url
+airports,1,Dubai International Airport,Dubai,United Arab Emirates,9.26,/lists/airports/dubai-international-airport/
+airports,2,El Dorado International Airport,Bogotá,Colombia,9.18,/lists/airports/el-dorado-international-airport/
+airports,3,Kempegowda International Airport,Bengaluru,India,9.14,/lists/airports/kempegowda-international-airport/
+airports,4,Singapore Changi Airport,Singapore,Singapore,9.10,/lists/airports/singapore-changi-airport/
+airports,5,Rome Fiumicino Airport,Fiumicino,Italy,9.06,/lists/airports/rome-fiumicino-airport/
+airports,6,Seoul Incheon,Jung-gu,South Korea,9.01,/lists/airports/seoul-incheon/
+airports,7,Bahrain International Airport,Muharraq,Bahrain,8.99,/lists/airports/bahrain-international-airport/
+airports,8,Soekarno-Hatta International Airport,Tangerang,Indonesia,8.97,/lists/airports/soekarno-hatta-international-airport/
+airports,9,Indira Gandhi International Airport,New Delhi,India,8.97,/lists/airports/indira-gandhi-international-airport/
+airports,10,Chhatrapati Shivaji Maharaj International Airport,Mumbai,India,8.96,/lists/airports/chhatrapati-shivaji-maharaj-international-airport/
+airports,11,Rajiv Gandhi International Airport,Hyderabad,India,8.95,/lists/airports/rajiv-gandhi-international-airport/
+airports,12,Hong Kong International Airport,,Hong Kong,8.91,/lists/airports/hong-kong-international-airport/
+airports,13,Tokyo Narita,Narita,Japan,8.91,/lists/airports/tokyo-narita/
+airports,14,Indianapolis International Airport,Indianapolis,United States,8.89,/lists/airports/indianapolis-international-airport/
+airports,15,Muscat International Airport,Muscat,Oman,8.86,/lists/airports/muscat-international-airport/
+airports,16,Tokyo Haneda Airport,Ota City,Japan,8.85,/lists/airports/tokyo-haneda-airport/
+airports,17,Tampa International Airport,Tampa,United States,8.83,/lists/airports/tampa-international-airport/
+airports,18,Durban King Shaka,La Mercy,South Africa,8.81,/lists/airports/durban-king-shaka/
+airports,19,Bangkok Suvarnabhumi,,Thailand,8.81,/lists/airports/bangkok-suvarnabhumi/
+airports,20,Carrasco International Airport,Ciudad de la Costa,Uruguay,8.79,/lists/airports/carrasco-international-airport/
+airports,21,Queen Alia International Airport,Amman,Jordan,8.78,/lists/airports/queen-alia-international-airport/
+airports,22,Helsinki-Vantaa Airport,Vantaa,Finland,8.77,/lists/airports/helsinki-vantaa-airport/
+airports,23,Alicante–Elche Airport,Elx,Spain,8.76,/lists/airports/alicanteelche-airport/
+airports,24,Gerald R. Ford International Airport,Grand Rapids,United States,8.76,/lists/airports/gerald-r-ford-international-airport/
+airports,25,New Chitose Airport,Chitose,Japan,8.75,/lists/airports/new-chitose-airport/
+airports,26,Zayed International Airport,Abu Dhabi,United Arab Emirates,8.75,/lists/airports/zayed-international-airport/
+airports,27,Istanbul Airport,Arnavutköy,Turkey,8.74,/lists/airports/istanbul-airport/
+airports,28,Ministro Pistarini International Airport,Ezeiza,Argentina,8.73,/lists/airports/ministro-pistarini-international-airport/
+airports,29,Vancouver International Airport,Richmond,Canada,8.69,/lists/airports/vancouver-international-airport/
+airports,30,Greenville-Spartanburg International Airport,Greer,United States,8.68,/lists/airports/greenville-spartanburg-international-airport/
+airports,31,Lanseria International Airport,Lanseria,South Africa,8.68,/lists/airports/lanseria-international-airport/
+airports,32,Taiwan Taoyuan International Airport,Sanshi Village,Taiwan,8.68,/lists/airports/taiwan-taoyuan-international-airport/
+airports,33,Astana International Airport,Astana,Kazakhstan,8.68,/lists/airports/astana-international-airport/
+airports,34,Kigali International Airport,Kigali,Rwanda,8.66,/lists/airports/kigali-international-airport/
+airports,35,Porto Airport,Vila Nova da Telha,Portugal,8.66,/lists/airports/porto-airport/
+airports,36,Centrair Nagoya,Tokoname,Japan,8.66,/lists/airports/centrair-nagoya/
+airports,37,Phnom Penh Techo International Airport,,Cambodia,8.65,/lists/airports/phnom-penh-techo-international-airport/
+airports,38,Chihuahua International Airport,Chihuahua,Mexico,8.64,/lists/airports/chihuahua-international-airport/
+airports,39,Dakar Blaise Diagne International Airport,Ndiass,Senegal,8.64,/lists/airports/dakar-blaise-diagne-international-airport/
+airports,40,Beijing Daxing International Airport,Daxing,China,8.64,/lists/airports/beijing-daxing-international-airport/
+airports,41,Juan Santamaria International Airport,Río Segundo,Costa Rica,8.63,/lists/airports/juan-santamaria-international-airport/
+airports,42,Hamad International Airport,Doha,Qatar,8.63,/lists/airports/hamad-international-airport/
+airports,43,Zurich Airport,Zurich,Switzerland,8.63,/lists/airports/zurich-airport/
+airports,44,Ushuaia,Ushuaia,Argentina,8.63,/lists/airports/ushuaia/
+airports,45,Prince Sultan bin Abdulaziz Airport,Tabuk,Saudi Arabia,8.62,/lists/airports/prince-sultan-bin-abdulaziz-airport/
+airports,46,Ngurah Rai International Airport,Bali,Indonesia,8.62,/lists/airports/ngurah-rai-international-airport/
+airports,47,Shenzhen Bao’an International Airport,Shenzhen,China,8.62,/lists/airports/shenzhen-baoan-international-airport/
+airports,48,Wilson Airport,Nairobi,Kenya,8.62,/lists/airports/wilson-airport/
+airports,49,Paro International Airport,Paro,Bhutan,8.61,/lists/airports/paro-international-airport/
+airports,50,Mactan-Cebu International Airport,Lapu-Lapu,Philippines,8.61,/lists/airports/mactan-cebu-international-airport/
+airports,51,Kruger Mpumalanga International Airport,Mbombela,South Africa,8.61,/lists/airports/kruger-mpumalanga-international-airport/
+airports,52,Johannesburg OR Tambo,Johannesburg,South Africa,8.61,/lists/airports/johannesburg-or-tambo/
+airports,53,Jorge Chavez International Airport,Callao,Peru,8.60,/lists/airports/jorge-chavez-international-airport/
+airports,54,Allama Iqbal International Airport,Lahore,Pakistan,8.60,/lists/airports/allama-iqbal-international-airport/
+airports,55,London City Airport,London,United Kingdom,8.60,/lists/airports/london-city-airport/
+airports,56,Jinnah International Airport,Karachi,Pakistan,8.60,/lists/airports/jinnah-international-airport/
+airports,57,El Hierro Airport,Villa de Valverde,Spain,8.60,/lists/airports/el-hierro-airport/
+airports,58,Addis Ababa Bole International Airport,Addis Ababa,Ethiopia,8.60,/lists/airports/addis-ababa-bole-international-airport/
+airports,59,Seymour Airport,Seymour,Ecuador,8.60,/lists/airports/seymour-airport/
+airports,60,Kumasi International Airport,Kumasi,Ghana,8.59,/lists/airports/kumasi-international-airport/
+airports,61,Mazatlán International Airport,Mazatlán,Mexico,8.59,/lists/airports/mazatlan-international-airport/
+airports,62,Lukla Tenzing-Hillary Airport,Chaunrikharka,Nepal,8.59,/lists/airports/lukla-tenzing-hillary-airport/
+airports,63,Luxor International Airport,Luxor,Egypt,8.59,/lists/airports/luxor-international-airport/
+airports,64,Jenderal Ahmad Yani International Airport,Semarang City,Indonesia,8.58,/lists/airports/jenderal-ahmad-yani-international-airport/
+airports,65,Gibraltar International Airport,Gibraltar,Gibraltar,8.58,/lists/airports/gibraltar-international-airport/
+airports,66,Amman Civil Airport,Amman,Jordan,8.57,/lists/airports/amman-civil-airport/
+airports,67,Arusha Airport,Arusha,Tanzania,8.57,/lists/airports/arusha-airport/
+airports,68,Ha’il International Airport,Hail,Saudi Arabia,8.57,/lists/airports/hail-international-airport/
+airports,69,Inverness Airport,Inverness,United Kingdom,8.56,/lists/airports/inverness-airport/
+airports,70,Shanghai Pudong International Airport,Pu Dong Xin Qu,China,8.56,/lists/airports/shanghai-pudong-international-airport/
+airports,71,Copenhagen Airport,Kastrup,Denmark,8.55,/lists/airports/copenhagen-airport/
+airports,72,Christchurch International Airport,Christchurch,New Zealand,8.55,/lists/airports/christchurch-international-airport/
+airports,73,Ras Al Khaimah International Airport,Ras Al Khaimah,United Arab Emirates,8.54,/lists/airports/ras-al-khaimah-international-airport/
+airports,74,Heydar Aliyev International Airport,Şimal,Azerbaijan,8.54,/lists/airports/heydar-aliyev-international-airport/
+airports,75,Taif International Airport,Taif,Saudi Arabia,8.53,/lists/airports/taif-international-airport/
+airports,76,Arturo Merino Benitez International Airport,Pudahuel,Chile,8.53,/lists/airports/arturo-merino-benitez-international-airport/
+airports,77,Vienna International Airport,Schwechat,Austria,8.53,/lists/airports/vienna-international-airport/
+airports,78,Seychelles International Airport,Mahé,Seychelles,8.53,/lists/airports/seychelles-international-airport/
+airports,79,Luxembourg Airport,Luxembourg,Luxembourg,8.50,/lists/airports/luxembourg-airport/
+airports,80,Mexico City International Airport,Mexico City,Mexico,8.50,/lists/airports/mexico-city-international-airport/
+airports,81,Zvartnots International Airport,Yerevan,Armenia,8.49,/lists/airports/zvartnots-international-airport/
+airports,82,Sir Seewoosagur Ramgoolam International Airport,Plaine Magnien,Mauritius,8.49,/lists/airports/sir-seewoosagur-ramgoolam-international-airport/
+airports,83,Athens International Airport,Spata,Greece,8.48,/lists/airports/athens-international-airport/
+airports,84,Rio de Janeiro Galeao International Airport,Ilha do Governador,Brazil,8.47,/lists/airports/rio-de-janeiro-galeao-international-airport/
+airports,85,Hanoi Noi Bai,Ha Noi,Vietnam,8.46,/lists/airports/hanoi-noi-bai/
+airports,86,Da Nang International Airport,Hải Châu,Vietnam,8.45,/lists/airports/da-nang-international-airport/
+airports,87,Malta International Airport,Luqa,Malta,8.44,/lists/airports/malta-international-airport/
+airports,88,Hazrat Shahjalal International Airport,Dhaka,Bangladesh,8.43,/lists/airports/hazrat-shahjalal-international-airport/
+airports,89,Sao Paulo Guarulhos International Airport,Aeroporto,Brazil,8.43,/lists/airports/sao-paulo-guarulhos-international-airport/
+airports,90,Velana International Airport,Male,Maldives,8.42,/lists/airports/velana-international-airport/
+airports,91,Vilnius Airport,Vilnius,Lithuania,8.41,/lists/airports/vilnius-airport/
+airports,92,Almaty International Airport,Almaty,Kazakhstan,8.38,/lists/airports/almaty-international-airport/
+airports,93,Nairobi Jomo Kenyatta International Airport,Nairobi,Kenya,8.30,/lists/airports/nairobi-jomo-kenyatta-international-airport/
+airports,94,Munich Airport,Oberding,Germany,8.29,/lists/airports/munich-airport/
+airports,95,Dublin Airport,Dublin,Ireland,8.29,/lists/airports/dublin-airport/
+airports,96,Warsaw Chopin Airport,Warsaw,Poland,8.29,/lists/airports/warsaw-chopin-airport/
+airports,97,Bandaranaike International Airport,Katunayake,Sri Lanka,8.29,/lists/airports/bandaranaike-international-airport/
+airports,98,Madrid-Barajas Airport,Madrid,Spain,8.26,/lists/airports/madrid-barajas-airport/
+airports,99,Budapest Ferenc Liszt International Airport,Budapest,Hungary,8.23,/lists/airports/budapest-ferenc-liszt-international-airport/
+airports,100,Krakow John Paul II International Airport,Balice,Poland,8.20,/lists/airports/krakow-john-paul-ii-international-airport/
