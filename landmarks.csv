@@ -1,0 +1,101 @@
+list,rank,name,city,country,worldworthy_score,page_url
+landmarks,1,Anıtkabir,Ankara,Turkey,9.74,/lists/landmarks/antkabir/
+landmarks,2,Meteora,Kalabaka,Greece,9.72,/lists/landmarks/meteora/
+landmarks,3,St. Peter’s Basilica,Vatican City,Vatican City,9.65,/lists/landmarks/st-peters-basilica/
+landmarks,4,Florence Cathedral,Florence,Italy,9.63,/lists/landmarks/florence-cathedral/
+landmarks,5,Hagia Sophia,Istanbul,Turkey,9.61,/lists/landmarks/hagia-sophia/
+landmarks,6,Christ the Redeemer,Rio de Janeiro,Brazil,9.61,/lists/landmarks/christ-the-redeemer/
+landmarks,7,Karnak Temple,Luxor,Egypt,9.60,/lists/landmarks/karnak-temple/
+landmarks,8,Brooklyn Bridge,New York,United States,9.60,/lists/landmarks/brooklyn-bridge/
+landmarks,9,Teatro Colón,Buenos Aires,Argentina,9.57,/lists/landmarks/teatro-colon/
+landmarks,10,"El Castillo, Chichén Itzá",Chichén Itzá,Mexico,9.57,/lists/landmarks/el-castillo-chichen-itza/
+landmarks,11,World War II Memorial,"Washington, DC",United States,9.57,/lists/landmarks/world-war-ii-memorial/
+landmarks,12,Piazza del Campo,Siena,Italy,9.57,/lists/landmarks/piazza-del-campo/
+landmarks,13,Vittoriano,Rome,Italy,9.56,/lists/landmarks/vittoriano/
+landmarks,14,Sultan Qaboos Grand Mosque,Muscat,Oman,9.56,/lists/landmarks/sultan-qaboos-grand-mosque/
+landmarks,15,Petra Treasury,Petra,Jordan,9.56,/lists/landmarks/petra-treasury/
+landmarks,16,Plaza de España,Seville,Spain,9.56,/lists/landmarks/plaza-de-espana/
+landmarks,17,Sydney Opera House,Sydney,Australia,9.55,/lists/landmarks/sydney-opera-house/
+landmarks,18,Pantheon,Rome,Italy,9.55,/lists/landmarks/pantheon/
+landmarks,19,USS Arizona Memorial,Honolulu,United States,9.54,/lists/landmarks/uss-arizona-memorial/
+landmarks,20,Portland Head Light,Cape Elizabeth,United States,9.53,/lists/landmarks/portland-head-light/
+landmarks,21,Golden Gate Bridge,San Francisco,United States,9.51,/lists/landmarks/golden-gate-bridge/
+landmarks,22,Lincoln Memorial,"Washington, DC",United States,9.51,/lists/landmarks/lincoln-memorial/
+landmarks,23,Monument to the Heroes of the Restoration,Santiago de los Caballeros,Dominican Republic,9.50,/lists/landmarks/monument-to-the-heroes-of-the-restoration/
+landmarks,24,Villa de Leyva Main Square,Villa de Leyva,Colombia,9.49,/lists/landmarks/villa-de-leyva-main-square/
+landmarks,25,Parroquia de San Miguel Arcángel,San Miguel de Allende,Mexico,9.49,/lists/landmarks/parroquia-de-san-miguel-arcangel/
+landmarks,26,Piazza della Signoria,Florence,Italy,9.48,/lists/landmarks/piazza-della-signoria/
+landmarks,27,Teatro Amazonas,,Brazil,9.48,/lists/landmarks/teatro-amazonas/
+landmarks,28,Sydney Harbour Bridge,Sydney,Australia,9.47,/lists/landmarks/sydney-harbour-bridge/
+landmarks,29,Registan Square,Samarkand,Uzbekistan,9.46,/lists/landmarks/registan-square/
+landmarks,30,Shrine of Remembrance,Melbourne,Australia,9.45,/lists/landmarks/shrine-of-remembrance/
+landmarks,31,Chronicles of Georgia,T'bilisi,Georgia,9.45,/lists/landmarks/chronicles-of-georgia/
+landmarks,32,Møns Klint,Borre,Denmark,9.45,/lists/landmarks/mns-klint/
+landmarks,33,Basílica del Voto Nacional,Quito,Ecuador,9.45,/lists/landmarks/basilica-del-voto-nacional/
+landmarks,34,Palacio de Bellas Artes,Mexico City,Mexico,9.45,/lists/landmarks/palacio-de-bellas-artes/
+landmarks,35,Fuente de las Tarascas,Morelia,Mexico,9.45,/lists/landmarks/fuente-de-las-tarascas/
+landmarks,36,Tower Bridge,London,United Kingdom,9.44,/lists/landmarks/tower-bridge/
+landmarks,37,Deadvlei,Sossusvlei,Namibia,9.44,/lists/landmarks/deadvlei/
+landmarks,38,"Martin Luther King, Jr. Memorial","Washington, DC",United States,9.44,/lists/landmarks/martin-luther-king-jr-memorial/
+landmarks,39,Monumento a La Patria,Merida,Mexico,9.44,/lists/landmarks/monumento-a-la-patria/
+landmarks,40,Piazza Castello,Turin,Italy,9.44,/lists/landmarks/piazza-castello/
+landmarks,41,Wały Chrobrego,Szczecin,Poland,9.43,/lists/landmarks/way-chrobrego/
+landmarks,42,Madrasa Ben Youssef,Marrakech,Morocco,9.43,/lists/landmarks/madrasa-ben-youssef/
+landmarks,43,Mirante Central - Turismo Itaipu,Foz do Iguaçu,Brazil,9.43,/lists/landmarks/mirante-central-turismo-itaipu/
+landmarks,44,Cologne Cathedral,Cologne,Germany,9.43,/lists/landmarks/cologne-cathedral/
+landmarks,45,Fort McHenry National Monument and Historic Shrine,Baltimore,United States,9.42,/lists/landmarks/fort-mchenry-national-monument-and-historic-shrine/
+landmarks,46,Mura di Lucca,Lucca,Italy,9.42,/lists/landmarks/mura-di-lucca/
+landmarks,47,Sea Cliff Bridge,Clifton,Australia,9.40,/lists/landmarks/sea-cliff-bridge/
+landmarks,48,Krämerbrücke,Erfurt,Germany,9.39,/lists/landmarks/kramerbrucke/
+landmarks,49,Signal Hill National Historic Site,St. John's,Canada,9.39,/lists/landmarks/signal-hill-national-historic-site/
+landmarks,50,Belvedere di Piazza Giovanni Pascoli,Matera,Italy,9.38,/lists/landmarks/belvedere-di-piazza-giovanni-pascoli/
+landmarks,51,Ponta do Humaitá,Salvador,Brazil,9.38,/lists/landmarks/ponta-do-humaita/
+landmarks,52,Kalan Minaret,Buxoro,Uzbekistan,9.38,/lists/landmarks/kalan-minaret/
+landmarks,53,Grand Mosque Kuwait,Kuwait City,Kuwait,9.37,/lists/landmarks/grand-mosque-kuwait/
+landmarks,54,Rosary Quay,Brugge,Belgium,9.37,/lists/landmarks/rosary-quay/
+landmarks,55,Piazza Duomo Siracusa,Siracusa,Italy,9.37,/lists/landmarks/piazza-duomo-siracusa/
+landmarks,56,5 Fingers,Obertraun,Austria,9.36,/lists/landmarks/5-fingers/
+landmarks,57,Mormon Battalion Historic Site,San Diego,United States,9.36,/lists/landmarks/mormon-battalion-historic-site/
+landmarks,58,Kirkilai Observation Tower,Kirkilai,Lithuania,9.35,/lists/landmarks/kirkilai-observation-tower/
+landmarks,59,Alcántara Roman Bridge,Alcántara,Spain,9.35,/lists/landmarks/alcantara-roman-bridge/
+landmarks,60,Mosque Imam Turki Bin Abdullah,Riyadh,Saudi Arabia,9.35,/lists/landmarks/mosque-imam-turki-bin-abdullah/
+landmarks,61,Paróquia Nossa Senhora do Brasil,São Paulo,Brazil,9.35,/lists/landmarks/paroquia-nossa-senhora-do-brasil/
+landmarks,62,Fisher Building,Detroit,United States,9.35,/lists/landmarks/fisher-building/
+landmarks,63,Palm Jumeirah,Dubai,United Arab Emirates,9.34,/lists/landmarks/palm-jumeirah/
+landmarks,64,Olana State Historic Site,Hudson,United States,9.34,/lists/landmarks/olana-state-historic-site/
+landmarks,65,Hokitika Gorge,Kokatahi,New Zealand,9.34,/lists/landmarks/hokitika-gorge/
+landmarks,66,Iowa State Capitol,Des Moines,United States,9.33,/lists/landmarks/iowa-state-capitol/
+landmarks,67,Navy Lighthouse,Miraflores,Peru,9.33,/lists/landmarks/navy-lighthouse/
+landmarks,68,Craneosaurs,Szczecin,Poland,9.33,/lists/landmarks/craneosaurs/
+landmarks,69,Easternmost Point of Canada,St. John's,Canada,9.33,/lists/landmarks/easternmost-point-of-canada/
+landmarks,70,Teatro Nacional de Costa Rica,San José,Costa Rica,9.33,/lists/landmarks/teatro-nacional-de-costa-rica/
+landmarks,71,State War Memorial,Kings Park,Australia,9.33,/lists/landmarks/state-war-memorial/
+landmarks,72,Cordouan Lighthouse,Le Verdon-sur-Mer,France,9.32,/lists/landmarks/cordouan-lighthouse/
+landmarks,73,Pomnik Anonimowego Przechodnia we Wrocławiu,Wrocław,Poland,9.32,/lists/landmarks/pomnik-anonimowego-przechodnia-we-wrocawiu/
+landmarks,74,Banghwasuryujeong Pavilion,Suwon,South Korea,9.32,/lists/landmarks/banghwasuryujeong-pavilion/
+landmarks,75,Templo del Gran Jaguar,Tikal,Guatemala,9.32,/lists/landmarks/templo-del-gran-jaguar/
+landmarks,76,Verudela Canyon,Pula,Croatia,9.32,/lists/landmarks/verudela-canyon/
+landmarks,77,AlUla Fort Viewpoint,AlUla,Saudi Arabia,9.32,/lists/landmarks/alula-fort-viewpoint/
+landmarks,78,The Victor,Beograd,Serbia,9.32,/lists/landmarks/the-victor/
+landmarks,79,Kasbah of the Udayas,Rabat,Morocco,9.32,/lists/landmarks/kasbah-of-the-udayas/
+landmarks,80,Rouen Panorama De La Côte Sainte Catherine,Bonsecours,France,9.31,/lists/landmarks/rouen-panorama-de-la-cote-sainte-catherine/
+landmarks,81,Monumento a Goethals,Panamá,Panama,9.31,/lists/landmarks/monumento-a-goethals/
+landmarks,82,Vienna City Hall,Vienna,Austria,9.31,/lists/landmarks/vienna-city-hall/
+landmarks,83,Fort Winiary,Poznań,Poland,9.31,/lists/landmarks/fort-winiary/
+landmarks,84,Mur des Canuts,Lyon,France,9.31,/lists/landmarks/mur-des-canuts/
+landmarks,85,Mountain Gate,Sur,Turkey,9.31,/lists/landmarks/mountain-gate/
+landmarks,86,Metropolitan Cathedral of Santiago,Santiago,Chile,9.30,/lists/landmarks/metropolitan-cathedral-of-santiago/
+landmarks,87,Morro do Ernesto,,Brazil,9.30,/lists/landmarks/morro-do-ernesto/
+landmarks,88,Hegra South Gate,Hegra,Saudi Arabia,9.30,/lists/landmarks/hegra-south-gate/
+landmarks,89,Jerash Oval Plaza,Jerash,Jordan,9.30,/lists/landmarks/jerash-oval-plaza/
+landmarks,90,Zsolnay Fountain,Pécs,Hungary,9.30,/lists/landmarks/zsolnay-fountain/
+landmarks,91,Wahat Al Karama,,United Arab Emirates,9.30,/lists/landmarks/wahat-al-karama/
+landmarks,92,National Pantheon of Heroes,Asunción,Paraguay,9.30,/lists/landmarks/national-pantheon-of-heroes/
+landmarks,93,Porta da Vila,Óbidos,Portugal,9.30,/lists/landmarks/porta-da-vila/
+landmarks,94,Ruines Carbide Willson,Chelsea,Canada,9.30,/lists/landmarks/ruines-carbide-willson/
+landmarks,95,Basler Pfalz,Basel,Switzerland,9.30,/lists/landmarks/basler-pfalz/
+landmarks,96,Merkinė Observation Tower,Merkinė,Lithuania,9.30,/lists/landmarks/merkine-observation-tower/
+landmarks,97,Longmen Grottoes,Luoyang,China,9.30,/lists/landmarks/longmen-grottoes/
+landmarks,98,Pórtico de Joinville,Joinville,Brazil,9.29,/lists/landmarks/portico-de-joinville/
+landmarks,99,Fountain of King Matthias,Budapest,Hungary,9.29,/lists/landmarks/fountain-of-king-matthias/
+landmarks,100,Miś Uszatek,Łódź,Poland,9.29,/lists/landmarks/mis-uszatek/

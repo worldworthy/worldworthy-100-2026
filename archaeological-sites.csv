@@ -1,0 +1,101 @@
+list,rank,name,city,country,worldworthy_score,page_url
+archaeological-sites,1,Abu Simbel,Abu Simbel,Egypt,9.70,/lists/archaeological-sites/abu-simbel/
+archaeological-sites,2,Amphitheatre of El Jem,El Jem,Tunisia,9.61,/lists/archaeological-sites/amphitheatre-of-el-jem/
+archaeological-sites,3,Ephesus Ancient City,Selçuk,Turkey,9.58,/lists/archaeological-sites/ephesus-ancient-city/
+archaeological-sites,4,Sigiriya,Sigiriya,Sri Lanka,9.56,/lists/archaeological-sites/sigiriya/
+archaeological-sites,5,Valley of the Kings,Luxor,Egypt,9.56,/lists/archaeological-sites/valley-of-the-kings/
+archaeological-sites,6,Philae Temple,Aswan,Egypt,9.53,/lists/archaeological-sites/philae-temple/
+archaeological-sites,7,Mérida Roman Theatre,Mérida,Spain,9.52,/lists/archaeological-sites/merida-roman-theatre/
+archaeological-sites,8,Aspendos Theatre,Serik,Turkey,9.49,/lists/archaeological-sites/aspendos-theatre/
+archaeological-sites,9,Pyramid of the Sun,Teotihuacán de Arista,Mexico,9.48,/lists/archaeological-sites/pyramid-of-the-sun/
+archaeological-sites,10,Zona Arqueológica de Monte Albán,San Pedro Ixtlahuaca,Mexico,9.48,/lists/archaeological-sites/zona-arqueologica-de-monte-alban/
+archaeological-sites,11,Sagalassos,Ağlasun,Turkey,9.48,/lists/archaeological-sites/sagalassos/
+archaeological-sites,12,Dendera Temple,Qena,Egypt,9.47,/lists/archaeological-sites/dendera-temple/
+archaeological-sites,13,Tikal,Tikal,Guatemala,9.46,/lists/archaeological-sites/tikal/
+archaeological-sites,14,Tulum Ruins,Tulum,Mexico,9.46,/lists/archaeological-sites/tulum-ruins/
+archaeological-sites,15,The Great Sphinx,Al Haram,Egypt,9.42,/lists/archaeological-sites/the-great-sphinx/
+archaeological-sites,16,Walls of Cartagena,Cartagena,Colombia,9.41,/lists/archaeological-sites/walls-of-cartagena/
+archaeological-sites,17,Colosseum,Rome,Italy,9.40,/lists/archaeological-sites/colosseum/
+archaeological-sites,18,Epidaurus Ancient Theatre,Epidavros,Greece,9.39,/lists/archaeological-sites/epidaurus-ancient-theatre/
+archaeological-sites,19,Historic Sanctuary of Machu Picchu,Machu Picchu,Peru,9.39,/lists/archaeological-sites/historic-sanctuary-of-machu-picchu/
+archaeological-sites,20,Acropolis of Athens,Athens,Greece,9.39,/lists/archaeological-sites/acropolis-of-athens/
+archaeological-sites,21,Mount Nemrut,Karadut,Turkey,9.38,/lists/archaeological-sites/mount-nemrut/
+archaeological-sites,22,Copán Ruinas Archaeological Site,Copan Ruinas,Honduras,9.37,/lists/archaeological-sites/copan-ruinas-archaeological-site/
+archaeological-sites,23,Rani ki Vav,Patan,India,9.37,/lists/archaeological-sites/rani-ki-vav/
+archaeological-sites,24,Saqqara Pyramid,Badrshein,Egypt,9.37,/lists/archaeological-sites/saqqara-pyramid/
+archaeological-sites,25,Dougga Archaeological Site,Téboursouk,Tunisia,9.36,/lists/archaeological-sites/dougga-archaeological-site/
+archaeological-sites,26,Skara Brae,Sandwick,United Kingdom,9.35,/lists/archaeological-sites/skara-brae/
+archaeological-sites,27,Hierapolis,Pamukkale,Turkey,9.34,/lists/archaeological-sites/hierapolis/
+archaeological-sites,28,Temple of Hatshepsut,Luxor,Egypt,9.34,/lists/archaeological-sites/temple-of-hatshepsut/
+archaeological-sites,29,Zona Arqueologica Moray,Maras,Peru,9.34,/lists/archaeological-sites/zona-arqueologica-moray/
+archaeological-sites,30,Ancient Messene,Messene,Greece,9.34,/lists/archaeological-sites/ancient-messene/
+archaeological-sites,31,Termessos,Döşemealtı,Turkey,9.33,/lists/archaeological-sites/termessos/
+archaeological-sites,32,Phaselis,Kemer,Turkey,9.33,/lists/archaeological-sites/phaselis/
+archaeological-sites,33,Sukhothai Historical Park,,Thailand,9.33,/lists/archaeological-sites/sukhothai-historical-park/
+archaeological-sites,34,Zona Arqueológica de Cholula,San Andrés Cholula,Mexico,9.32,/lists/archaeological-sites/zona-arqueologica-de-cholula/
+archaeological-sites,35,Temple of Edfu,Adfo,Egypt,9.32,/lists/archaeological-sites/temple-of-edfu/
+archaeological-sites,36,Jerash Archaeological Site,Jerash,Jordan,9.30,/lists/archaeological-sites/jerash-archaeological-site/
+archaeological-sites,37,Cahokia,Collinsville,United States,9.30,/lists/archaeological-sites/cahokia/
+archaeological-sites,38,Perge,Aksu,Turkey,9.30,/lists/archaeological-sites/perge/
+archaeological-sites,39,Historic Jamestowne,Jamestown,United States,9.30,/lists/archaeological-sites/historic-jamestowne/
+archaeological-sites,40,Mycenae,Mykines,Greece,9.30,/lists/archaeological-sites/mycenae/
+archaeological-sites,41,Olympia Archaeological Site,Archaia Olympia,Greece,9.29,/lists/archaeological-sites/olympia-archaeological-site/
+archaeological-sites,42,Sacsayhuamán,Cusco,Peru,9.29,/lists/archaeological-sites/sacsayhuaman/
+archaeological-sites,43,Chaco Canyon,Nageezi,United States,9.29,/lists/archaeological-sites/chaco-canyon/
+archaeological-sites,44,Antiphellos,Kaş,Turkey,9.29,/lists/archaeological-sites/antiphellos/
+archaeological-sites,45,Tlos,Fethiye,Turkey,9.28,/lists/archaeological-sites/tlos/
+archaeological-sites,46,Hattusa,Boğazkale,Turkey,9.28,/lists/archaeological-sites/hattusa/
+archaeological-sites,47,Sardis,Salihli,Turkey,9.28,/lists/archaeological-sites/sardis/
+archaeological-sites,48,Medinet Habu,Al Qarna,Egypt,9.28,/lists/archaeological-sites/medinet-habu/
+archaeological-sites,49,Zona Arqueológica Teuchitlán o Guachimontones,Guachimontones,Mexico,9.28,/lists/archaeological-sites/zona-arqueologica-teuchitlan-o-guachimontones/
+archaeological-sites,50,L’Anse aux Meadows,,Canada,9.27,/lists/archaeological-sites/lanse-aux-meadows/
+archaeological-sites,51,Yaxchilán,Ocosingo,Mexico,9.27,/lists/archaeological-sites/yaxchilan/
+archaeological-sites,52,Ingapirca Archaeological Complex,GUAPÁN,Ecuador,9.27,/lists/archaeological-sites/ingapirca-archaeological-complex/
+archaeological-sites,53,Kourion Ancient Amphitheater,Episkopi,Cyprus,9.27,/lists/archaeological-sites/kourion-ancient-amphitheater/
+archaeological-sites,54,Yaxhá,Laguna Yaxjá,Guatemala,9.27,/lists/archaeological-sites/yaxha/
+archaeological-sites,55,Zakynthos,Zakynthos,Greece,9.26,/lists/archaeological-sites/zakynthos/
+archaeological-sites,56,Giza Necropolis,Al Haram,Egypt,9.26,/lists/archaeological-sites/giza-necropolis/
+archaeological-sites,57,Serra da Capivara,São Raimundo Nonato,Brazil,9.25,/lists/archaeological-sites/serra-da-capivara/
+archaeological-sites,58,Garni Temple,Garni,Armenia,9.25,/lists/archaeological-sites/garni-temple/
+archaeological-sites,59,Mnajdra Archaeological Park,Qrendi,Malta,9.25,/lists/archaeological-sites/mnajdra-archaeological-park/
+archaeological-sites,60,Punic Quarter of Byrsa,Site archéologique de Carthage,Tunisia,9.25,/lists/archaeological-sites/punic-quarter-of-byrsa/
+archaeological-sites,61,Nuraghe Santu Antine,Torralba,Italy,9.25,/lists/archaeological-sites/nuraghe-santu-antine/
+archaeological-sites,62,Nuraghe Arrubiu,Orroli,Italy,9.24,/lists/archaeological-sites/nuraghe-arrubiu/
+archaeological-sites,63,Tierradentro,Inza,Colombia,9.24,/lists/archaeological-sites/tierradentro/
+archaeological-sites,64,Leang Leang Archaeological Park,Maros,Indonesia,9.24,/lists/archaeological-sites/leang-leang-archaeological-park/
+archaeological-sites,65,Cueva de las Manos,Lago Buenos Aires Department,Argentina,9.24,/lists/archaeological-sites/cueva-de-las-manos/
+archaeological-sites,66,Sun Gate,Tiwanaku,Bolivia,9.23,/lists/archaeological-sites/sun-gate/
+archaeological-sites,67,Ruínas da Lagoinha (Fazenda Bom Retiro),Ubatuba,Brazil,9.23,/lists/archaeological-sites/ruinas-da-lagoinha-fazenda-bom-retiro/
+archaeological-sites,68,Little Petra,Al-Baydha,Jordan,9.22,/lists/archaeological-sites/little-petra/
+archaeological-sites,69,Preah Vihear Temple,Choam Ksant,Cambodia,9.22,/lists/archaeological-sites/preah-vihear-temple/
+archaeological-sites,70,Quiriguá,Las Viñas,Guatemala,9.21,/lists/archaeological-sites/quirigua/
+archaeological-sites,71,Phu Phrabat,,Thailand,9.21,/lists/archaeological-sites/phu-phrabat/
+archaeological-sites,72,Caral,Supe Puerto,Peru,9.20,/lists/archaeological-sites/caral/
+archaeological-sites,73,Plaoshnik Archaeological park,Ohrid,North Macedonia,9.20,/lists/archaeological-sites/plaoshnik-archaeological-park/
+archaeological-sites,74,Arco Chato,Panama City,Panama,9.19,/lists/archaeological-sites/arco-chato/
+archaeological-sites,75,Roman Temple Of Hercules,Amman,Jordan,9.19,/lists/archaeological-sites/roman-temple-of-hercules/
+archaeological-sites,76,Cassinomagus - Archaeological Park,Chassenon,France,9.19,/lists/archaeological-sites/cassinomagus-archaeological-park/
+archaeological-sites,77,Pucará de Rumicucho / Ruins / Ruinss,Quito,Ecuador,9.19,/lists/archaeological-sites/pucara-de-rumicucho-ruins-ruinss/
+archaeological-sites,78,Borj Sud,Fes,Morocco,9.19,/lists/archaeological-sites/borj-sud/
+archaeological-sites,79,Mediana,Medijana,Serbia,9.18,/lists/archaeological-sites/mediana/
+archaeological-sites,80,Zona Arqueológica Yohualichan,Heroica Puebla de Zaragoza,Mexico,9.18,/lists/archaeological-sites/zona-arqueologica-yohualichan/
+archaeological-sites,81,Old Uppsala Archaeological Park,Uppsala,Sweden,9.17,/lists/archaeological-sites/old-uppsala-archaeological-park/
+archaeological-sites,82,Qal’at al-Bahrain,Karbabad,Bahrain,9.16,/lists/archaeological-sites/qalat-al-bahrain/
+archaeological-sites,83,"Jelling Mounds, Runic Stones and Church",Jelling,Denmark,9.16,/lists/archaeological-sites/jelling-mounds-runic-stones-and-church/
+archaeological-sites,84,Nakagusuku Castle Ruins,Okinawa,Japan,9.16,/lists/archaeological-sites/nakagusuku-castle-ruins/
+archaeological-sites,85,Parque Arqueológico Tazumal,Chalchuapa,El Salvador,9.16,/lists/archaeological-sites/parque-arqueologico-tazumal/
+archaeological-sites,86,Casa Blanca Archaeological Site,Chalchuapa,El Salvador,9.16,/lists/archaeological-sites/casa-blanca-archaeological-site/
+archaeological-sites,87,Pataleshwar Temple,Pune,India,9.15,/lists/archaeological-sites/pataleshwar-temple/
+archaeological-sites,88,Phoenician tombs,Tangier,Morocco,9.15,/lists/archaeological-sites/phoenician-tombs/
+archaeological-sites,89,Guayabo National Monument,Turrialba,Costa Rica,9.15,/lists/archaeological-sites/guayabo-national-monument/
+archaeological-sites,90,Seolleung and Jeongneung Royal Tombs,Gangnam,South Korea,9.15,/lists/archaeological-sites/seolleung-and-jeongneung-royal-tombs/
+archaeological-sites,91,Chavín de Huántar,Chavin de Huantar,Peru,9.15,/lists/archaeological-sites/chavin-de-huantar/
+archaeological-sites,92,Sterkfontein,Johannesburg,South Africa,9.14,/lists/archaeological-sites/sterkfontein/
+archaeological-sites,93,Ruinas de Ujarrás,Ujarrás,Costa Rica,9.14,/lists/archaeological-sites/ruinas-de-ujarras/
+archaeological-sites,94,Mapungubwe,Musina,South Africa,9.14,/lists/archaeological-sites/mapungubwe/
+archaeological-sites,95,Pukará de Quitor,San Pedro de Atacama,Chile,9.14,/lists/archaeological-sites/pukara-de-quitor/
+archaeological-sites,96,Sikandar Lodi Tomb New Delhi,New Delhi,India,9.14,/lists/archaeological-sites/sikandar-lodi-tomb-new-delhi/
+archaeological-sites,97,Al-Ukhdood,Najran,Saudi Arabia,9.13,/lists/archaeological-sites/al-ukhdood/
+archaeological-sites,98,Marinid Tombs,Fes,Morocco,9.13,/lists/archaeological-sites/marinid-tombs/
+archaeological-sites,99,Parque Arqueológico Joya de Cerén,Joya de Ceren,Brazil,9.13,/lists/archaeological-sites/parque-arqueologico-joya-de-ceren/
+archaeological-sites,100,Zona Arqueologica Monumental Mateo Salado,Lima,Peru,9.13,/lists/archaeological-sites/zona-arqueologica-monumental-mateo-salado/

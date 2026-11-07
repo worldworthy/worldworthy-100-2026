@@ -1,0 +1,101 @@
+list,rank,name,city,country,worldworthy_score,page_url
+most-loved-cities,1,Cape Town,,South Africa,9.82,/lists/most-loved-cities/cape-town/
+most-loved-cities,2,Rio de Janeiro,,Brazil,9.71,/lists/most-loved-cities/rio-de-janeiro/
+most-loved-cities,3,London,,United Kingdom,9.57,/lists/most-loved-cities/london/
+most-loved-cities,4,São Paulo,,Brazil,9.50,/lists/most-loved-cities/sao-paulo/
+most-loved-cities,5,Buenos Aires,,Argentina,9.37,/lists/most-loved-cities/buenos-aires/
+most-loved-cities,6,Doha,,Qatar,9.21,/lists/most-loved-cities/doha/
+most-loved-cities,7,Guadalajara,,Mexico,9.21,/lists/most-loved-cities/guadalajara/
+most-loved-cities,8,Budapest,,Hungary,9.15,/lists/most-loved-cities/budapest/
+most-loved-cities,9,Paris,,France,9.14,/lists/most-loved-cities/paris/
+most-loved-cities,10,Madrid,,Spain,9.13,/lists/most-loved-cities/madrid/
+most-loved-cities,11,Osaka,,Japan,9.11,/lists/most-loved-cities/osaka/
+most-loved-cities,12,Amsterdam,,Netherlands,9.11,/lists/most-loved-cities/amsterdam/
+most-loved-cities,13,Berlin,,Germany,9.07,/lists/most-loved-cities/berlin/
+most-loved-cities,14,Edinburgh,,United Kingdom,9.06,/lists/most-loved-cities/edinburgh/
+most-loved-cities,15,Athens,,Greece,8.97,/lists/most-loved-cities/athens/
+most-loved-cities,16,Dubai,,United Arab Emirates,8.97,/lists/most-loved-cities/dubai/
+most-loved-cities,17,Kraków,,Poland,8.95,/lists/most-loved-cities/krakow/
+most-loved-cities,18,Cusco,,Peru,8.94,/lists/most-loved-cities/cusco/
+most-loved-cities,19,Barcelona,,Spain,8.90,/lists/most-loved-cities/barcelona/
+most-loved-cities,20,Vienna,,Austria,8.88,/lists/most-loved-cities/vienna/
+most-loved-cities,21,New York,,United States,8.87,/lists/most-loved-cities/new-york/
+most-loved-cities,22,Rome,,Italy,8.87,/lists/most-loved-cities/rome/
+most-loved-cities,23,Cartagena,,Colombia,8.86,/lists/most-loved-cities/cartagena/
+most-loved-cities,24,Quito,,Ecuador,8.86,/lists/most-loved-cities/quito/
+most-loved-cities,25,Santo Domingo,,Dominican Republic,8.86,/lists/most-loved-cities/santo-domingo/
+most-loved-cities,26,Abu Dhabi,,United Arab Emirates,8.85,/lists/most-loved-cities/abu-dhabi/
+most-loved-cities,27,Mexico City,,Mexico,8.85,/lists/most-loved-cities/mexico-city/
+most-loved-cities,28,Lisbon,,Portugal,8.81,/lists/most-loved-cities/lisbon/
+most-loved-cities,29,Kuala Lumpur,,Malaysia,8.78,/lists/most-loved-cities/kuala-lumpur/
+most-loved-cities,30,Istanbul,,Turkey,8.78,/lists/most-loved-cities/istanbul/
+most-loved-cities,31,Riyadh,,Saudi Arabia,8.72,/lists/most-loved-cities/riyadh/
+most-loved-cities,32,Vancouver,,Canada,8.72,/lists/most-loved-cities/vancouver/
+most-loved-cities,33,Panama City,,Panama,8.71,/lists/most-loved-cities/panama-city/
+most-loved-cities,34,Auckland,,New Zealand,8.67,/lists/most-loved-cities/auckland/
+most-loved-cities,35,Hamburg,,Germany,8.62,/lists/most-loved-cities/hamburg/
+most-loved-cities,36,San Francisco,,United States,8.61,/lists/most-loved-cities/san-francisco/
+most-loved-cities,37,Vilnius,,Lithuania,8.60,/lists/most-loved-cities/vilnius/
+most-loved-cities,38,Helsinki,,Finland,8.60,/lists/most-loved-cities/helsinki/
+most-loved-cities,39,Chicago,,United States,8.59,/lists/most-loved-cities/chicago/
+most-loved-cities,40,San Diego,,United States,8.57,/lists/most-loved-cities/san-diego/
+most-loved-cities,41,Bangkok,,Thailand,8.57,/lists/most-loved-cities/bangkok/
+most-loved-cities,42,Kyoto,,Japan,8.56,/lists/most-loved-cities/kyoto/
+most-loved-cities,43,Valencia,,Spain,8.55,/lists/most-loved-cities/valencia/
+most-loved-cities,44,Porto,,Portugal,8.54,/lists/most-loved-cities/porto/
+most-loved-cities,45,Nice,,France,8.54,/lists/most-loved-cities/nice/
+most-loved-cities,46,Sydney,,Australia,8.54,/lists/most-loved-cities/sydney/
+most-loved-cities,47,Toronto,,Canada,8.51,/lists/most-loved-cities/toronto/
+most-loved-cities,48,Warsaw,,Poland,8.50,/lists/most-loved-cities/warsaw/
+most-loved-cities,49,Santiago,,Chile,8.49,/lists/most-loved-cities/santiago/
+most-loved-cities,50,Jakarta,,Indonesia,8.48,/lists/most-loved-cities/jakarta/
+most-loved-cities,51,Prague,,Czechia,8.47,/lists/most-loved-cities/prague/
+most-loved-cities,52,Miami,,United States,8.46,/lists/most-loved-cities/miami/
+most-loved-cities,53,Granada,,Spain,8.43,/lists/most-loved-cities/granada/
+most-loved-cities,54,Florence,,Italy,8.42,/lists/most-loved-cities/florence/
+most-loved-cities,55,Lima,,Peru,8.41,/lists/most-loved-cities/lima/
+most-loved-cities,56,Montevideo,,Uruguay,8.36,/lists/most-loved-cities/montevideo/
+most-loved-cities,57,Tallinn,,Estonia,8.36,/lists/most-loved-cities/tallinn/
+most-loved-cities,58,Salvador,,Brazil,8.36,/lists/most-loved-cities/salvador/
+most-loved-cities,59,Bucharest,,Romania,8.30,/lists/most-loved-cities/bucharest/
+most-loved-cities,60,Seville,,Spain,8.29,/lists/most-loved-cities/seville/
+most-loved-cities,61,Ho Chi Minh City,,Vietnam,8.29,/lists/most-loved-cities/ho-chi-minh-city/
+most-loved-cities,62,Tokyo,,Japan,8.29,/lists/most-loved-cities/tokyo/
+most-loved-cities,63,Nairobi,,Kenya,8.29,/lists/most-loved-cities/nairobi/
+most-loved-cities,64,Dublin,,Ireland,8.27,/lists/most-loved-cities/dublin/
+most-loved-cities,65,Wellington,,New Zealand,8.24,/lists/most-loved-cities/wellington/
+most-loved-cities,66,Melbourne,,Australia,8.23,/lists/most-loved-cities/melbourne/
+most-loved-cities,67,Amman,,Jordan,8.23,/lists/most-loved-cities/amman/
+most-loved-cities,68,Stockholm,,Sweden,8.22,/lists/most-loved-cities/stockholm/
+most-loved-cities,69,Zagreb,,Croatia,8.21,/lists/most-loved-cities/zagreb/
+most-loved-cities,70,Oaxaca,,Mexico,8.21,/lists/most-loved-cities/oaxaca/
+most-loved-cities,71,Copenhagen,,Denmark,8.20,/lists/most-loved-cities/copenhagen/
+most-loved-cities,72,Split,,Croatia,8.17,/lists/most-loved-cities/split/
+most-loved-cities,73,Guatemala City,,Guatemala,8.16,/lists/most-loved-cities/guatemala-city/
+most-loved-cities,74,Chiang Mai,,Thailand,8.16,/lists/most-loved-cities/chiang-mai/
+most-loved-cities,75,Muscat,,Oman,8.13,/lists/most-loved-cities/muscat/
+most-loved-cities,76,Salzburg,,Austria,8.12,/lists/most-loved-cities/salzburg/
+most-loved-cities,77,Antigua Guatemala,,Guatemala,8.05,/lists/most-loved-cities/antigua-guatemala/
+most-loved-cities,78,Victoria,,Canada,8.04,/lists/most-loved-cities/victoria/
+most-loved-cities,79,Verona,,Italy,8.04,/lists/most-loved-cities/verona/
+most-loved-cities,80,Ubud,,Indonesia,8.01,/lists/most-loved-cities/ubud/
+most-loved-cities,81,Ljubljana,,Slovenia,7.98,/lists/most-loved-cities/ljubljana/
+most-loved-cities,82,St. John’s,,Canada,7.96,/lists/most-loved-cities/st-johns/
+most-loved-cities,83,Kuwait City,,Kuwait,7.93,/lists/most-loved-cities/kuwait-city/
+most-loved-cities,84,Kaunas,,Lithuania,7.86,/lists/most-loved-cities/kaunas/
+most-loved-cities,85,Ushuaia,,Argentina,7.84,/lists/most-loved-cities/ushuaia/
+most-loved-cities,86,Sarajevo,,Bosnia and Herzegovina,7.84,/lists/most-loved-cities/sarajevo/
+most-loved-cities,87,Tartu,,Estonia,7.79,/lists/most-loved-cities/tartu/
+most-loved-cities,88,Ica,,Peru,7.76,/lists/most-loved-cities/ica/
+most-loved-cities,89,Chania,,Greece,7.76,/lists/most-loved-cities/chania/
+most-loved-cities,90,Gatineau,,Canada,7.74,/lists/most-loved-cities/gatineau/
+most-loved-cities,91,Punta Arenas,,Chile,7.74,/lists/most-loved-cities/punta-arenas/
+most-loved-cities,92,Funchal,,Portugal,7.74,/lists/most-loved-cities/funchal/
+most-loved-cities,93,Bergen,,Norway,7.73,/lists/most-loved-cities/bergen/
+most-loved-cities,94,Pula,,Croatia,7.72,/lists/most-loved-cities/pula/
+most-loved-cities,95,Brasov,,Romania,7.71,/lists/most-loved-cities/brasov/
+most-loved-cities,96,Bern,,Switzerland,7.68,/lists/most-loved-cities/bern/
+most-loved-cities,97,Berat,,Albania,7.66,/lists/most-loved-cities/berat/
+most-loved-cities,98,Kosice,,Slovakia,7.64,/lists/most-loved-cities/kosice/
+most-loved-cities,99,Opole,,Poland,7.64,/lists/most-loved-cities/opole/
+most-loved-cities,100,Eger,,Hungary,7.62,/lists/most-loved-cities/eger/

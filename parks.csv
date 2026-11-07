@@ -1,0 +1,101 @@
+list,rank,name,city,country,worldworthy_score,page_url
+parks,1,Boston Public Garden,Boston,United States,9.53,/lists/parks/boston-public-garden/
+parks,2,Central Park,New York,United States,9.52,/lists/parks/central-park/
+parks,3,Bicentennial Park,Santiago,Chile,9.52,/lists/parks/bicentennial-park/
+parks,4,Hiroshima Peace Memorial Park,Hiroshima,Japan,9.52,/lists/parks/hiroshima-peace-memorial-park/
+parks,5,Millennium Park,Chicago,United States,9.52,/lists/parks/millennium-park/
+parks,6,Balboa Park,San Diego,United States,9.51,/lists/parks/balboa-park/
+parks,7,The Grand Garden of Dresden,Dresden,Germany,9.51,/lists/parks/the-grand-garden-of-dresden/
+parks,8,Gathering Place,Tulsa,United States,9.50,/lists/parks/gathering-place/
+parks,9,Richmond Park,Richmond,United Kingdom,9.50,/lists/parks/richmond-park/
+parks,10,St. Andrews State Park,Panama City,United States,9.50,/lists/parks/st-andrews-state-park/
+parks,11,Stavros Niarchos Park,Kallithea,Greece,9.49,/lists/parks/stavros-niarchos-park/
+parks,12,Muskau Park,Bad Muskau,Germany,9.48,/lists/parks/muskau-park/
+parks,13,Forsyth Park,Savannah,United States,9.48,/lists/parks/forsyth-park/
+parks,14,El Retiro Park,Madrid,Spain,9.47,/lists/parks/el-retiro-park/
+parks,15,Calderon Park,Cuenca,Ecuador,9.46,/lists/parks/calderon-park/
+parks,16,Holyrood Park,Edinburgh,United Kingdom,9.46,/lists/parks/holyrood-park/
+parks,17,Stanley Park,Vancouver,Canada,9.46,/lists/parks/stanley-park/
+parks,18,Parque Fundidora,Monterrey,Mexico,9.45,/lists/parks/parque-fundidora/
+parks,19,Oliwa Park,Gdańsk,Poland,9.45,/lists/parks/oliwa-park/
+parks,20,Shelby Farms Park,Memphis,United States,9.45,/lists/parks/shelby-farms-park/
+parks,21,Kalemegdan,Belgrade,Serbia,9.45,/lists/parks/kalemegdan/
+parks,22,Greenwich Park,London,United Kingdom,9.44,/lists/parks/greenwich-park/
+parks,23,Parque Germânia,Porto Alegre,Brazil,9.44,/lists/parks/parque-germania/
+parks,24,Maksimir Park,Zagreb,Croatia,9.44,/lists/parks/maksimir-park/
+parks,25,Cerro San Cristóbal,Recoleta,Chile,9.44,/lists/parks/cerro-san-cristobal/
+parks,26,Grébovka (Havlíčkovy sady),Prague 2-Vinohrady,Czechia,9.44,/lists/parks/grebovka-havlickovy-sady/
+parks,27,Citadel Park,Poznań,Poland,9.43,/lists/parks/citadel-park/
+parks,28,Halifax Public Gardens,Halifax,Canada,9.43,/lists/parks/halifax-public-gardens/
+parks,29,Hyde Park,London,United Kingdom,9.43,/lists/parks/hyde-park/
+parks,30,Dzintari Forest Park,Jūrmala,Latvia,9.43,/lists/parks/dzintari-forest-park/
+parks,31,Jardin du Luxembourg,Paris,France,9.42,/lists/parks/jardin-du-luxembourg/
+parks,32,Tribeca Park,West Jakarta City,Indonesia,9.42,/lists/parks/tribeca-park/
+parks,33,Great Forest Park,Debrecen,Hungary,9.42,/lists/parks/great-forest-park/
+parks,34,Türkenschanzpark,Vienna,Austria,9.42,/lists/parks/turkenschanzpark/
+parks,35,Golden Gate Park,San Francisco,United States,9.42,/lists/parks/golden-gate-park/
+parks,36,Santa Barbara Garden,Braga,Portugal,9.42,/lists/parks/santa-barbara-garden/
+parks,37,Bosque dos Namorados do Parque das Dunas,Natal,Brazil,9.42,/lists/parks/bosque-dos-namorados-do-parque-das-dunas/
+parks,38,South Bank Parklands,South Brisbane,Australia,9.42,/lists/parks/south-bank-parklands/
+parks,39,Cornwall Park,Auckland,New Zealand,9.42,/lists/parks/cornwall-park/
+parks,40,“Tsar Simeon Garden” Park,Plovdiv,Bulgaria,9.42,/lists/parks/tsar-simeon-garden-park/
+parks,41,Kadriorg Park,Tallinn,Estonia,9.42,/lists/parks/kadriorg-park/
+parks,42,Rushcliffe Country Park,Nottingham,United Kingdom,9.39,/lists/parks/rushcliffe-country-park/
+parks,43,Pukekura Park,New Plymouth,New Zealand,9.39,/lists/parks/pukekura-park/
+parks,44,Killiney Hill Park,Dublin,Ireland,9.39,/lists/parks/killiney-hill-park/
+parks,45,Laurel Bank Park,Toowoomba City,Australia,9.37,/lists/parks/laurel-bank-park/
+parks,46,Parque de los Gatos,Cali,Colombia,9.37,/lists/parks/parque-de-los-gatos/
+parks,47,Mziuri Park,Tbilisi,Georgia,9.36,/lists/parks/mziuri-park/
+parks,48,Taman Agung Proklamasi,,Indonesia,9.35,/lists/parks/taman-agung-proklamasi/
+parks,49,Anima (André Heller Garden),Marrakech,Morocco,9.35,/lists/parks/anima-andre-heller-garden/
+parks,50,Parque Virgilio Barco,Bogotá,Colombia,9.34,/lists/parks/parque-virgilio-barco/
+parks,51,Park Garden Palace of Branicki,Białystok,Poland,9.34,/lists/parks/park-garden-palace-of-branicki/
+parks,52,PKOLS (Mount Douglas Park),Victoria,Canada,9.33,/lists/parks/pkols-mount-douglas-park/
+parks,53,Terrenkur,Almaty,Kazakhstan,9.33,/lists/parks/terrenkur/
+parks,54,St. Anne’s Park,Dublin,Ireland,9.32,/lists/parks/st-annes-park/
+parks,55,Clyne Gardens,Swansea,United Kingdom,9.32,/lists/parks/clyne-gardens/
+parks,56,Obora Holedná,Brno-Žebětín,Czechia,9.32,/lists/parks/obora-holedna/
+parks,57,Parque Tricao,Santo Domingo,Chile,9.32,/lists/parks/parque-tricao/
+parks,58,Panemunė pinewood,Kaunas,Lithuania,9.31,/lists/parks/panemune-pinewood/
+parks,59,Saddle River County Park,Saddle Brook,United States,9.31,/lists/parks/saddle-river-county-park/
+parks,60,Regional Park Ballincollig,Ballincollig,Ireland,9.31,/lists/parks/regional-park-ballincollig/
+parks,61,Parque Linear Cidade Jardim Barra da Tijuca,Barra Olímpica,Brazil,9.31,/lists/parks/parque-linear-cidade-jardim-barra-da-tijuca/
+parks,62,Namsan Mountain Park,Jung,South Korea,9.30,/lists/parks/namsan-mountain-park/
+parks,63,Bowring Park,St. John's,Canada,9.30,/lists/parks/bowring-park/
+parks,64,Wisdom Park - Gadjah Mada University,Depok,Indonesia,9.30,/lists/parks/wisdom-park-gadjah-mada-university/
+parks,65,Sultan Ahmet Park,Istanbul,Turkey,9.30,/lists/parks/sultan-ahmet-park/
+parks,66,Ness Islands,Inverness,United Kingdom,9.29,/lists/parks/ness-islands/
+parks,67,Queenstown Gardens,Queenstown,New Zealand,9.29,/lists/parks/queenstown-gardens/
+parks,68,Yoshikien Garden,Nara,Japan,9.29,/lists/parks/yoshikien-garden/
+parks,69,Al Bayt Park,Al Khawr,Qatar,9.29,/lists/parks/al-bayt-park/
+parks,70,Europapark,Klagenfurt am Wörthersee,Austria,9.29,/lists/parks/europapark/
+parks,71,Parque Urbano do Tejo,Lisbon,Portugal,9.29,/lists/parks/parque-urbano-do-tejo/
+parks,72,Hz Süleyman Parkı,Sur,Turkey,9.29,/lists/parks/hz-suleyman-park/
+parks,73,Normafa Park,Budapest,Hungary,9.29,/lists/parks/normafa-park/
+parks,74,Saxe Point Park,Victoria,Canada,9.29,/lists/parks/saxe-point-park/
+parks,75,Waterworks’ garden,Bratislava,Slovakia,9.29,/lists/parks/waterworks-garden/
+parks,76,Yalım Parkı,Muratpaşa,Turkey,9.28,/lists/parks/yalm-park/
+parks,77,Respect for History Park,Eceabat,Turkey,9.28,/lists/parks/respect-for-history-park/
+parks,78,Laguna de Lotos,Valdivia,Chile,9.28,/lists/parks/laguna-de-lotos/
+parks,79,McLaren Falls Park,Omanawa,New Zealand,9.28,/lists/parks/mclaren-falls-park/
+parks,80,Barton Park,Perugia,Italy,9.28,/lists/parks/barton-park/
+parks,81,Mayfield Park,Manchester,United Kingdom,9.28,/lists/parks/mayfield-park/
+parks,82,Nan Lian Garden,Hong Kong,Hong Kong,9.28,/lists/parks/nan-lian-garden/
+parks,83,Parc Tenbosch,Ixelles,Belgium,9.28,/lists/parks/parc-tenbosch/
+parks,84,Šijana/Siana Forest,Pula,Croatia,9.28,/lists/parks/sijana-siana-forest/
+parks,85,Parque Bosques Del Valle,San Pedro Garza García,Mexico,9.28,/lists/parks/parque-bosques-del-valle/
+parks,86,Rosenlund Rosarium,Jönköping,Sweden,9.28,/lists/parks/rosenlund-rosarium/
+parks,87,Iulius Gardens,Timișoara,Romania,9.28,/lists/parks/iulius-gardens/
+parks,88,Trillium Park,Toronto,Canada,9.28,/lists/parks/trillium-park/
+parks,89,Woluwe Park,Woluwe-Saint-Pierre,Belgium,9.28,/lists/parks/woluwe-park/
+parks,90,Kronvalda Park,Riga,Latvia,9.28,/lists/parks/kronvalda-park/
+parks,91,El Olivar de San Isidro Park,Lima,Peru,9.28,/lists/parks/el-olivar-de-san-isidro-park/
+parks,92,Ziedoņdārzs,Riga,Latvia,9.28,/lists/parks/ziedondarzs/
+parks,93,Parc de La Perle du Lac,Geneva,Switzerland,9.28,/lists/parks/parc-de-la-perle-du-lac/
+parks,94,Dedaena Park,Tbilisi,Georgia,9.27,/lists/parks/dedaena-park/
+parks,95,Villa Ghigi,Bologna,Italy,9.27,/lists/parks/villa-ghigi/
+parks,96,Camel Park,Kíti,Cyprus,9.27,/lists/parks/camel-park/
+parks,97,Santiago Central Park,Santiago de los Caballeros,Dominican Republic,9.27,/lists/parks/santiago-central-park/
+parks,98,Whytecliff Park,West Vancouver,Canada,9.27,/lists/parks/whytecliff-park/
+parks,99,Parc Majolan,Blanquefort,France,9.27,/lists/parks/parc-majolan/
+parks,100,Generalife Gardens,Granada,Spain,9.27,/lists/parks/generalife-gardens/

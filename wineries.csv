@@ -1,0 +1,101 @@
+list,rank,name,city,country,worldworthy_score,page_url
+wineries,1,Sababay Winery,Blahbatuh,Indonesia,9.45,/lists/wineries/sababay-winery/
+wineries,2,Cockburn’s Lodge,Vila Nova de Gaia,Portugal,9.31,/lists/wineries/cockburns-lodge/
+wineries,3,Viña Undurraga,Talagante,Chile,9.28,/lists/wineries/vina-undurraga/
+wineries,4,Chapel Down,Tenterden,United Kingdom,9.27,/lists/wineries/chapel-down/
+wineries,5,Klein Roosboom Boutique Winery,Cape Town,South Africa,9.25,/lists/wineries/klein-roosboom-boutique-winery/
+wineries,6,Bodegas Hidalgo La Gitana,Sanlúcar de Barrameda,Spain,9.24,/lists/wineries/bodegas-hidalgo-la-gitana/
+wineries,7,Vergelegen Wine Estate,Cape Town,South Africa,9.21,/lists/wineries/vergelegen-wine-estate/
+wineries,8,De Grendel Wine Estate and Restaurant,Cape Town,South Africa,9.19,/lists/wineries/de-grendel-wine-estate-and-restaurant/
+wineries,9,Bodegas Emilio Moro,Pesquera de Duero,Spain,9.18,/lists/wineries/bodegas-emilio-moro/
+wineries,10,Gamboa - Viñas & Bodega,Campana,Argentina,9.18,/lists/wineries/gamboa-vinas-bodega/
+wineries,11,Cricova Winery,Cricova,Moldova,9.18,/lists/wineries/cricova-winery/
+wineries,12,Dr. Konstantin Frank Winery,Hammondsport,United States,9.17,/lists/wineries/dr-konstantin-frank-winery/
+wineries,13,La Rioja Alta,Haro,Spain,9.17,/lists/wineries/la-rioja-alta/
+wineries,14,Viña Cousiño Macul,Peñalolén,Chile,9.17,/lists/wineries/vina-cousino-macul/
+wineries,15,Champagne Veuve Clicquot,Reims,France,9.17,/lists/wineries/champagne-veuve-clicquot/
+wineries,16,Recaredo,Sant Sadurní d'Anoia,Spain,9.17,/lists/wineries/recaredo/
+wineries,17,Cantina Vino Italiano,Cusco,Peru,9.16,/lists/wineries/cantina-vino-italiano/
+wineries,18,Champagne Moët & Chandon,Épernay,France,9.16,/lists/wineries/champagne-moet-chandon/
+wineries,19,Feudi di San Gregorio,Sorbo Serpico,Italy,9.14,/lists/wineries/feudi-di-san-gregorio/
+wineries,20,La Bodega de MGC,Santo Domingo,Dominican Republic,9.14,/lists/wineries/la-bodega-de-mgc/
+wineries,21,Estate Argyros,Episkopi Gonias,Greece,9.13,/lists/wineries/estate-argyros/
+wineries,22,Fratelli Wines,Zanjewadi,India,9.13,/lists/wineries/fratelli-wines/
+wineries,23,Domaine Sigalas,"Oia, Santorini",Greece,9.12,/lists/wineries/domaine-sigalas/
+wineries,24,Schramsberg Vineyards,Calistoga,United States,9.12,/lists/wineries/schramsberg-vineyards/
+wineries,25,Vasse Felix,Cowaramup,Australia,9.12,/lists/wineries/vasse-felix/
+wineries,26,Château Pichon Baron,Pauillac,France,9.12,/lists/wineries/chateau-pichon-baron/
+wineries,27,Frog’s Leap Winery,Rutherford,United States,9.11,/lists/wineries/frogs-leap-winery/
+wineries,28,Benziger Family Winery,Glen Ellen,United States,9.11,/lists/wineries/benziger-family-winery/
+wineries,29,Viña Emiliana,Valparaíso,Chile,9.11,/lists/wineries/vina-emiliana/
+wineries,30,Gavalas Winery,Megalochori,Greece,9.11,/lists/wineries/gavalas-winery/
+wineries,31,JR The Wine Experience,Amman,Jordan,9.11,/lists/wineries/jr-the-wine-experience/
+wineries,32,Yalumba,Angaston,Australia,9.10,/lists/wineries/yalumba/
+wineries,33,Lapostolle Clos Apalta,San José de Apalla,Chile,9.10,/lists/wineries/lapostolle-clos-apalta/
+wineries,34,Bodega Norton,Perdriel,Argentina,9.10,/lists/wineries/bodega-norton/
+wineries,35,Montes Wines,Santa Cruz,Chile,9.10,/lists/wineries/montes-wines/
+wineries,36,Graham’s Port,Portugal,Portugal,9.10,/lists/wineries/grahams-port/
+wineries,37,City Winery Uruguay,Montevideo,Uruguay,9.10,/lists/wineries/city-winery-uruguay/
+wineries,38,Inniskillin,Niagara-on-the-Lake,Canada,9.10,/lists/wineries/inniskillin/
+wineries,39,Tacama,Ica,Peru,9.10,/lists/wineries/tacama/
+wineries,40,Champagne Mumm,Reims,France,9.10,/lists/wineries/champagne-mumm/
+wineries,41,Bodega Dinastía Vivanco,Briones,Spain,9.10,/lists/wineries/bodega-dinastia-vivanco/
+wineries,42,Avignonesi,Montepulciano,Italy,9.09,/lists/wineries/avignonesi/
+wineries,43,Far Niente,Oakville,United States,9.09,/lists/wineries/far-niente/
+wineries,44,Esporão,Reguengos de Monsaraz,Portugal,9.09,/lists/wineries/esporao/
+wineries,45,Quinta do Crasto,Gouvinhas,Portugal,9.09,/lists/wineries/quinta-do-crasto/
+wineries,46,Saint Clair Family Estate,Blenheim,New Zealand,9.08,/lists/wineries/saint-clair-family-estate/
+wineries,47,Marchesi di Barolo,Barolo,Italy,9.08,/lists/wineries/marchesi-di-barolo/
+wineries,48,Kendall-Jackson Wine Estate,Santa Rosa,United States,9.08,/lists/wineries/kendall-jackson-wine-estate/
+wineries,49,Bellavista,Erbusco,Italy,9.08,/lists/wineries/bellavista/
+wineries,50,Domaine Serene,Dayton,United States,9.08,/lists/wineries/domaine-serene/
+wineries,51,The Wine Box - Karen,Nairobi,Kenya,9.08,/lists/wineries/the-wine-box-karen/
+wineries,52,Sokol Blosser Winery,Dayton,United States,9.08,/lists/wineries/sokol-blosser-winery/
+wineries,53,Silver Oak Cellars,Oakville,United States,9.07,/lists/wineries/silver-oak-cellars/
+wineries,54,Château Smith Haut Lafitte,Martillac,France,9.07,/lists/wineries/chateau-smith-haut-lafitte/
+wineries,55,Ceretto,Alba,Italy,9.07,/lists/wineries/ceretto/
+wineries,56,Inglenook,Rutherford,United States,9.07,/lists/wineries/inglenook/
+wineries,57,Domäne Wachau,Dürnstein,Austria,9.07,/lists/wineries/domane-wachau/
+wineries,58,Ridge Vineyards,Cupertino,United States,9.07,/lists/wineries/ridge-vineyards/
+wineries,59,Hatten Wines,Denpasar Selatan,Indonesia,9.07,/lists/wineries/hatten-wines/
+wineries,60,Muga,Haro,Spain,9.06,/lists/wineries/muga/
+wineries,61,Rayuela Bodega de Vino,Guadalajara,Mexico,9.06,/lists/wineries/rayuela-bodega-de-vino/
+wineries,62,La Motte,Franschhoek,South Africa,9.05,/lists/wineries/la-motte/
+wineries,63,Gundlach Bundschu,Sonoma,United States,9.05,/lists/wineries/gundlach-bundschu/
+wineries,64,Château Pape Clément,Pessac,France,9.05,/lists/wineries/chateau-pape-clement/
+wineries,65,Margan Wines,Broke,Australia,9.05,/lists/wineries/margan-wines/
+wineries,66,Champagne Taittinger,Reims,France,9.05,/lists/wineries/champagne-taittinger/
+wineries,67,Tokara,Stellenbosch,South Africa,9.05,/lists/wineries/tokara/
+wineries,68,Voyager Estate,Margaret River,Australia,9.05,/lists/wineries/voyager-estate/
+wineries,69,Tyrrell’s Wines,Pokolbin,Australia,9.05,/lists/wineries/tyrrells-wines/
+wineries,70,Leeuin Estate,Witchcliffe,Australia,9.05,/lists/wineries/leeuin-estate/
+wineries,71,Quinta da Bacalhôa,São Simão,Portugal,9.05,/lists/wineries/quinta-da-bacalhoa/
+wineries,72,Bodegas Roda,Haro,Spain,9.05,/lists/wineries/bodegas-roda/
+wineries,73,Kloster Eberbach,Eltville am Rhein,Germany,9.04,/lists/wineries/kloster-eberbach/
+wineries,74,Ca’ del Bosco,Erbusco,Italy,9.04,/lists/wineries/ca-del-bosco/
+wineries,75,Rippon Vineyard,Wānaka,New Zealand,9.04,/lists/wineries/rippon-vineyard/
+wineries,76,Donnafugata,Marsala,Italy,9.04,/lists/wineries/donnafugata/
+wineries,77,Bodegas Lustau,Jerez de la Frontera,Spain,9.04,/lists/wineries/bodegas-lustau/
+wineries,78,Khareba Winery,Kvareli,Georgia,9.04,/lists/wineries/khareba-winery/
+wineries,79,Viña Santa Carolina,Macul,Chile,9.04,/lists/wineries/vina-santa-carolina/
+wineries,80,Monte Xanic,Francisco Zarco,Mexico,9.04,/lists/wineries/monte-xanic/
+wineries,81,Catena Zapata,Lujan de Cuyo,Argentina,9.03,/lists/wineries/catena-zapata/
+wineries,82,Bodegas Fundador,Jerez de la Frontera,Spain,9.03,/lists/wineries/bodegas-fundador/
+wineries,83,Urla Winery,Urla,Turkey,9.03,/lists/wineries/urla-winery/
+wineries,84,Trapiche,Maipú,Argentina,9.03,/lists/wineries/trapiche/
+wineries,85,Freixenet,Sant Sadurní d'Anoia,Spain,9.03,/lists/wineries/freixenet/
+wineries,86,Castello di Ama,Gaiole in Chianti,Italy,9.03,/lists/wineries/castello-di-ama/
+wineries,87,Luigi Bosca,Luján de Cuyo,Argentina,9.03,/lists/wineries/luigi-bosca/
+wineries,88,Cullen Wines,Wilyabrup,Australia,9.03,/lists/wineries/cullen-wines/
+wineries,89,Codorníu,Barcelona,Spain,9.02,/lists/wineries/codorniu/
+wineries,90,The Cellar,Doha,Qatar,9.02,/lists/wineries/the-cellar/
+wineries,91,Atelier du Vin,Kigali,Rwanda,9.02,/lists/wineries/atelier-du-vin/
+wineries,92,Schloss Vollrads,Oestrich-Winkel,Germany,9.02,/lists/wineries/schloss-vollrads/
+wineries,93,Château de Pommard,Pommard,France,9.01,/lists/wineries/chateau-de-pommard/
+wineries,94,Viña Casas del Bosque,Casablanca,Chile,9.01,/lists/wineries/vina-casas-del-bosque/
+wineries,95,Domaine Bousquet,Tupungato,Argentina,9.00,/lists/wineries/domaine-bousquet/
+wineries,96,Château de Meursault,Meursault,France,9.00,/lists/wineries/chateau-de-meursault/
+wineries,97,M. Chapoutier,Tain-l'Hermitage,France,9.00,/lists/wineries/m-chapoutier/
+wineries,98,Cloudy Bay,Blenheim,New Zealand,9.00,/lists/wineries/cloudy-bay/
+wineries,99,Bouza Bodega Boutique,Montevideo,Uruguay,9.00,/lists/wineries/bouza-bodega-boutique/
+wineries,100,Sidewood,Hahndorf,Australia,8.99,/lists/wineries/sidewood/

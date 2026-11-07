@@ -1,0 +1,101 @@
+list,rank,name,city,country,worldworthy_score,page_url
+most-delicious-cities,1,Amsterdam,,Netherlands,9.59,/lists/most-delicious-cities/amsterdam/
+most-delicious-cities,2,Cape Town,,South Africa,9.59,/lists/most-delicious-cities/cape-town/
+most-delicious-cities,3,London,,United Kingdom,9.57,/lists/most-delicious-cities/london/
+most-delicious-cities,4,Osaka,,Japan,9.50,/lists/most-delicious-cities/osaka/
+most-delicious-cities,5,Cusco,,Peru,9.50,/lists/most-delicious-cities/cusco/
+most-delicious-cities,6,Barcelona,,Spain,9.46,/lists/most-delicious-cities/barcelona/
+most-delicious-cities,7,Budapest,,Hungary,9.31,/lists/most-delicious-cities/budapest/
+most-delicious-cities,8,Berlin,,Germany,9.30,/lists/most-delicious-cities/berlin/
+most-delicious-cities,9,Buenos Aires,,Argentina,9.28,/lists/most-delicious-cities/buenos-aires/
+most-delicious-cities,10,Guadalajara,,Mexico,9.22,/lists/most-delicious-cities/guadalajara/
+most-delicious-cities,11,Edinburgh,,United Kingdom,9.21,/lists/most-delicious-cities/edinburgh/
+most-delicious-cities,12,Nice,,France,9.18,/lists/most-delicious-cities/nice/
+most-delicious-cities,13,São Paulo,,Brazil,9.18,/lists/most-delicious-cities/sao-paulo/
+most-delicious-cities,14,Doha,,Qatar,9.17,/lists/most-delicious-cities/doha/
+most-delicious-cities,15,Madrid,,Spain,9.15,/lists/most-delicious-cities/madrid/
+most-delicious-cities,16,Miami,,United States,9.11,/lists/most-delicious-cities/miami/
+most-delicious-cities,17,Paris,,France,9.06,/lists/most-delicious-cities/paris/
+most-delicious-cities,18,Cartagena,,Colombia,9.04,/lists/most-delicious-cities/cartagena/
+most-delicious-cities,19,Lisbon,,Portugal,8.98,/lists/most-delicious-cities/lisbon/
+most-delicious-cities,20,Helsinki,,Finland,8.97,/lists/most-delicious-cities/helsinki/
+most-delicious-cities,21,Quito,,Ecuador,8.86,/lists/most-delicious-cities/quito/
+most-delicious-cities,22,Kraków,,Poland,8.82,/lists/most-delicious-cities/krakow/
+most-delicious-cities,23,Panama City,,Panama,8.79,/lists/most-delicious-cities/panama-city/
+most-delicious-cities,24,Kuala Lumpur,,Malaysia,8.79,/lists/most-delicious-cities/kuala-lumpur/
+most-delicious-cities,25,Istanbul,,Turkey,8.76,/lists/most-delicious-cities/istanbul/
+most-delicious-cities,26,Kyoto,,Japan,8.75,/lists/most-delicious-cities/kyoto/
+most-delicious-cities,27,New York,,United States,8.73,/lists/most-delicious-cities/new-york/
+most-delicious-cities,28,Valencia,,Spain,8.72,/lists/most-delicious-cities/valencia/
+most-delicious-cities,29,Vancouver,,Canada,8.71,/lists/most-delicious-cities/vancouver/
+most-delicious-cities,30,Oaxaca,,Mexico,8.69,/lists/most-delicious-cities/oaxaca/
+most-delicious-cities,31,Ho Chi Minh City,,Vietnam,8.66,/lists/most-delicious-cities/ho-chi-minh-city/
+most-delicious-cities,32,Amman,,Jordan,8.63,/lists/most-delicious-cities/amman/
+most-delicious-cities,33,San Francisco,,United States,8.63,/lists/most-delicious-cities/san-francisco/
+most-delicious-cities,34,Manchester,,United Kingdom,8.62,/lists/most-delicious-cities/manchester/
+most-delicious-cities,35,Rome,,Italy,8.55,/lists/most-delicious-cities/rome/
+most-delicious-cities,36,Athens,,Greece,8.55,/lists/most-delicious-cities/athens/
+most-delicious-cities,37,Chicago,,United States,8.54,/lists/most-delicious-cities/chicago/
+most-delicious-cities,38,Florence,,Italy,8.53,/lists/most-delicious-cities/florence/
+most-delicious-cities,39,Porto,,Portugal,8.53,/lists/most-delicious-cities/porto/
+most-delicious-cities,40,Hamburg,,Germany,8.53,/lists/most-delicious-cities/hamburg/
+most-delicious-cities,41,Jakarta,,Indonesia,8.51,/lists/most-delicious-cities/jakarta/
+most-delicious-cities,42,Toronto,,Canada,8.50,/lists/most-delicious-cities/toronto/
+most-delicious-cities,43,Mexico City,,Mexico,8.48,/lists/most-delicious-cities/mexico-city/
+most-delicious-cities,44,San Diego,,United States,8.47,/lists/most-delicious-cities/san-diego/
+most-delicious-cities,45,Portland,,United States,8.46,/lists/most-delicious-cities/portland/
+most-delicious-cities,46,Rio de Janeiro,,Brazil,8.46,/lists/most-delicious-cities/rio-de-janeiro/
+most-delicious-cities,47,Montevideo,,Uruguay,8.43,/lists/most-delicious-cities/montevideo/
+most-delicious-cities,48,Salvador,,Brazil,8.41,/lists/most-delicious-cities/salvador/
+most-delicious-cities,49,Sofia,,Bulgaria,8.41,/lists/most-delicious-cities/sofia/
+most-delicious-cities,50,Nairobi,,Kenya,8.38,/lists/most-delicious-cities/nairobi/
+most-delicious-cities,51,Santo Domingo,,Dominican Republic,8.38,/lists/most-delicious-cities/santo-domingo/
+most-delicious-cities,52,Bangkok,,Thailand,8.37,/lists/most-delicious-cities/bangkok/
+most-delicious-cities,53,Lima,,Peru,8.36,/lists/most-delicious-cities/lima/
+most-delicious-cities,54,Riyadh,,Saudi Arabia,8.36,/lists/most-delicious-cities/riyadh/
+most-delicious-cities,55,Vienna,,Austria,8.34,/lists/most-delicious-cities/vienna/
+most-delicious-cities,56,Bucharest,,Romania,8.34,/lists/most-delicious-cities/bucharest/
+most-delicious-cities,57,Santiago,,Chile,8.34,/lists/most-delicious-cities/santiago/
+most-delicious-cities,58,Melbourne,,Australia,8.32,/lists/most-delicious-cities/melbourne/
+most-delicious-cities,59,Palma,,Spain,8.32,/lists/most-delicious-cities/palma/
+most-delicious-cities,60,Tokyo,,Japan,8.31,/lists/most-delicious-cities/tokyo/
+most-delicious-cities,61,Warsaw,,Poland,8.30,/lists/most-delicious-cities/warsaw/
+most-delicious-cities,62,Tallinn,,Estonia,8.29,/lists/most-delicious-cities/tallinn/
+most-delicious-cities,63,Verona,,Italy,8.29,/lists/most-delicious-cities/verona/
+most-delicious-cities,64,Ottawa,,Canada,8.25,/lists/most-delicious-cities/ottawa/
+most-delicious-cities,65,Johannesburg,,South Africa,8.24,/lists/most-delicious-cities/johannesburg/
+most-delicious-cities,66,Dubai,,United Arab Emirates,8.23,/lists/most-delicious-cities/dubai/
+most-delicious-cities,67,Muscat,,Oman,8.21,/lists/most-delicious-cities/muscat/
+most-delicious-cities,68,Oslo,,Norway,8.21,/lists/most-delicious-cities/oslo/
+most-delicious-cities,69,Chiang Mai,,Thailand,8.21,/lists/most-delicious-cities/chiang-mai/
+most-delicious-cities,70,Wellington,,New Zealand,8.20,/lists/most-delicious-cities/wellington/
+most-delicious-cities,71,Granada,,Spain,8.19,/lists/most-delicious-cities/granada/
+most-delicious-cities,72,Auckland,,New Zealand,8.19,/lists/most-delicious-cities/auckland/
+most-delicious-cities,73,Ubud,,Indonesia,8.16,/lists/most-delicious-cities/ubud/
+most-delicious-cities,74,Ljubljana,,Slovenia,8.16,/lists/most-delicious-cities/ljubljana/
+most-delicious-cities,75,New Orleans,,United States,8.13,/lists/most-delicious-cities/new-orleans/
+most-delicious-cities,76,Vilnius,,Lithuania,8.13,/lists/most-delicious-cities/vilnius/
+most-delicious-cities,77,Calgary,,Canada,8.12,/lists/most-delicious-cities/calgary/
+most-delicious-cities,78,Antigua Guatemala,,Guatemala,8.09,/lists/most-delicious-cities/antigua-guatemala/
+most-delicious-cities,79,Split,,Croatia,8.06,/lists/most-delicious-cities/split/
+most-delicious-cities,80,Ica,,Peru,7.94,/lists/most-delicious-cities/ica/
+most-delicious-cities,81,Salzburg,,Austria,7.90,/lists/most-delicious-cities/salzburg/
+most-delicious-cities,82,Funchal,,Portugal,7.90,/lists/most-delicious-cities/funchal/
+most-delicious-cities,83,Gatineau,,Canada,7.83,/lists/most-delicious-cities/gatineau/
+most-delicious-cities,84,Kuwait City,,Kuwait,7.82,/lists/most-delicious-cities/kuwait-city/
+most-delicious-cities,85,Pula,,Croatia,7.76,/lists/most-delicious-cities/pula/
+most-delicious-cities,86,Berat,,Albania,7.75,/lists/most-delicious-cities/berat/
+most-delicious-cities,87,Opole,,Poland,7.70,/lists/most-delicious-cities/opole/
+most-delicious-cities,88,Lecce,,Italy,7.67,/lists/most-delicious-cities/lecce/
+most-delicious-cities,89,Nizwa,,Oman,7.66,/lists/most-delicious-cities/nizwa/
+most-delicious-cities,90,Lund,,Sweden,7.63,/lists/most-delicious-cities/lund/
+most-delicious-cities,91,Manama,,Bahrain,7.58,/lists/most-delicious-cities/manama/
+most-delicious-cities,92,Bern,,Switzerland,7.55,/lists/most-delicious-cities/bern/
+most-delicious-cities,93,Punta Arenas,,Chile,7.53,/lists/most-delicious-cities/punta-arenas/
+most-delicious-cities,94,Sarajevo,,Bosnia and Herzegovina,7.50,/lists/most-delicious-cities/sarajevo/
+most-delicious-cities,95,Willemstad,,Curacao,7.50,/lists/most-delicious-cities/willemstad/
+most-delicious-cities,96,Khon Kaen,,Thailand,7.42,/lists/most-delicious-cities/khon-kaen/
+most-delicious-cities,97,Reykjavik,,Iceland,7.40,/lists/most-delicious-cities/reykjavik/
+most-delicious-cities,98,Essaouira,,Morocco,7.38,/lists/most-delicious-cities/essaouira/
+most-delicious-cities,99,Quetzaltenango,,Guatemala,7.37,/lists/most-delicious-cities/quetzaltenango/
+most-delicious-cities,100,Venice,,Italy,7.37,/lists/most-delicious-cities/venice/

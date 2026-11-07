@@ -1,0 +1,101 @@
+list,rank,name,city,country,worldworthy_score,page_url
+rising-cities,1,Vilnius,,Lithuania,9.25,/lists/rising-cities/vilnius/
+rising-cities,2,Iasi,,Romania,8.91,/lists/rising-cities/iasi/
+rising-cities,3,Ushuaia,,Argentina,8.90,/lists/rising-cities/ushuaia/
+rising-cities,4,Hamilton,,Canada,8.88,/lists/rising-cities/hamilton/
+rising-cities,5,Berat,,Albania,8.85,/lists/rising-cities/berat/
+rising-cities,6,Tartu,,Estonia,8.85,/lists/rising-cities/tartu/
+rising-cities,7,Brasov,,Romania,8.80,/lists/rising-cities/brasov/
+rising-cities,8,Opole,,Poland,8.80,/lists/rising-cities/opole/
+rising-cities,9,Szczecin,,Poland,8.78,/lists/rising-cities/szczecin/
+rising-cities,10,Zakopane,,Poland,8.78,/lists/rising-cities/zakopane/
+rising-cities,11,Ottawa,,Canada,8.75,/lists/rising-cities/ottawa/
+rising-cities,12,Antigua Guatemala,,Guatemala,8.71,/lists/rising-cities/antigua-guatemala/
+rising-cities,13,St. John’s,,Canada,8.69,/lists/rising-cities/st-johns/
+rising-cities,14,Graz,,Austria,8.59,/lists/rising-cities/graz/
+rising-cities,15,Kosice,,Slovakia,8.54,/lists/rising-cities/kosice/
+rising-cities,16,Gatineau,,Canada,8.54,/lists/rising-cities/gatineau/
+rising-cities,17,Eger,,Hungary,8.50,/lists/rising-cities/eger/
+rising-cities,18,Surabaya,,Indonesia,8.48,/lists/rising-cities/surabaya/
+rising-cities,19,Kaunas,,Lithuania,8.46,/lists/rising-cities/kaunas/
+rising-cities,20,Wellington,,New Zealand,8.43,/lists/rising-cities/wellington/
+rising-cities,21,Plovdiv,,Bulgaria,8.39,/lists/rising-cities/plovdiv/
+rising-cities,22,Rijeka,,Croatia,8.38,/lists/rising-cities/rijeka/
+rising-cities,23,Nice,,France,8.34,/lists/rising-cities/nice/
+rising-cities,24,Timisoara,,Romania,8.33,/lists/rising-cities/timisoara/
+rising-cities,25,Chihuahua,,Mexico,8.30,/lists/rising-cities/chihuahua/
+rising-cities,26,Santiago de los Caballeros,,Dominican Republic,8.27,/lists/rising-cities/santiago-de-los-caballeros/
+rising-cities,27,Pereira,,Colombia,8.25,/lists/rising-cities/pereira/
+rising-cities,28,Punta Arenas,,Chile,8.16,/lists/rising-cities/punta-arenas/
+rising-cities,29,Ljubljana,,Slovenia,8.16,/lists/rising-cities/ljubljana/
+rising-cities,30,Torun,,Poland,8.12,/lists/rising-cities/torun/
+rising-cities,31,Wroclaw,,Poland,8.09,/lists/rising-cities/wroclaw/
+rising-cities,32,Verona,,Italy,8.06,/lists/rising-cities/verona/
+rising-cities,33,Mérida,,Mexico,8.05,/lists/rising-cities/merida/
+rising-cities,34,Klaipeda,,Lithuania,8.05,/lists/rising-cities/klaipeda/
+rising-cities,35,Zaandam,,Netherlands,8.05,/lists/rising-cities/zaandam/
+rising-cities,36,Baku,,Azerbaijan,8.05,/lists/rising-cities/baku/
+rising-cities,37,Krakow,,Poland,8.03,/lists/rising-cities/krakow/
+rising-cities,38,Bern,,Switzerland,8.03,/lists/rising-cities/bern/
+rising-cities,39,Victoria,,Canada,8.00,/lists/rising-cities/victoria/
+rising-cities,40,Denpasar,,Indonesia,7.90,/lists/rising-cities/denpasar/
+rising-cities,41,Valparaiso,,Chile,7.81,/lists/rising-cities/valparaiso/
+rising-cities,42,Colonia del Sacramento,,Uruguay,7.80,/lists/rising-cities/colonia-del-sacramento/
+rising-cities,43,Thessaloniki,,Greece,7.78,/lists/rising-cities/thessaloniki/
+rising-cities,44,Kilkenny,,Ireland,7.75,/lists/rising-cities/kilkenny/
+rising-cities,45,San Salvador,,El Salvador,7.74,/lists/rising-cities/san-salvador/
+rising-cities,46,George Town,,Malaysia,7.72,/lists/rising-cities/george-town/
+rising-cities,47,Cuenca,,Ecuador,7.70,/lists/rising-cities/cuenca/
+rising-cities,48,Zurich,,Switzerland,7.67,/lists/rising-cities/zurich/
+rising-cities,49,Presov,,Slovakia,7.67,/lists/rising-cities/presov/
+rising-cities,50,Kota Kinabalu,,Malaysia,7.65,/lists/rising-cities/kota-kinabalu/
+rising-cities,51,Chania,,Greece,7.65,/lists/rising-cities/chania/
+rising-cities,52,Tbilisi,,Georgia,7.64,/lists/rising-cities/tbilisi/
+rising-cities,53,Bukhara,,Uzbekistan,7.63,/lists/rising-cities/bukhara/
+rising-cities,54,Galle,,Sri Lanka,7.62,/lists/rising-cities/galle/
+rising-cities,55,Chiang Mai,,Thailand,7.62,/lists/rising-cities/chiang-mai/
+rising-cities,56,Chiang Rai,,Thailand,7.60,/lists/rising-cities/chiang-rai/
+rising-cities,57,Cluj-Napoca,,Romania,7.59,/lists/rising-cities/cluj-napoca/
+rising-cities,58,Sofia,,Bulgaria,7.58,/lists/rising-cities/sofia/
+rising-cities,59,Calgary,,Canada,7.54,/lists/rising-cities/calgary/
+rising-cities,60,Bratislava,,Slovakia,7.54,/lists/rising-cities/bratislava/
+rising-cities,61,Szeged,,Hungary,7.52,/lists/rising-cities/szeged/
+rising-cities,62,Leon,,Spain,7.50,/lists/rising-cities/leon/
+rising-cities,63,Vigan,,Philippines,7.48,/lists/rising-cities/vigan/
+rising-cities,64,Burgas,,Bulgaria,7.48,/lists/rising-cities/burgas/
+rising-cities,65,Maastricht,,Netherlands,7.45,/lists/rising-cities/maastricht/
+rising-cities,66,Bergen,,Norway,7.42,/lists/rising-cities/bergen/
+rising-cities,67,Waterford,,Ireland,7.42,/lists/rising-cities/waterford/
+rising-cities,68,Porto Alegre,,Brazil,7.42,/lists/rising-cities/porto-alegre/
+rising-cities,69,Bruges,,Belgium,7.41,/lists/rising-cities/bruges/
+rising-cities,70,Funchal,,Portugal,7.38,/lists/rising-cities/funchal/
+rising-cities,71,Santa Marta,,Colombia,7.38,/lists/rising-cities/santa-marta/
+rising-cities,72,Neuchatel,,Switzerland,7.38,/lists/rising-cities/neuchatel/
+rising-cities,73,Johor Bahru,,Malaysia,7.36,/lists/rising-cities/johor-bahru/
+rising-cities,74,St. Louis,,United States,7.35,/lists/rising-cities/st-louis/
+rising-cities,75,Portland,,United States,7.34,/lists/rising-cities/portland/
+rising-cities,76,Varna,,Bulgaria,7.34,/lists/rising-cities/varna/
+rising-cities,77,Cali,,Colombia,7.32,/lists/rising-cities/cali/
+rising-cities,78,Kutna Hora,,Czechia,7.31,/lists/rising-cities/kutna-hora/
+rising-cities,79,AlUla,,Saudi Arabia,7.30,/lists/rising-cities/alula/
+rising-cities,80,Rotterdam,,Netherlands,7.29,/lists/rising-cities/rotterdam/
+rising-cities,81,Yerevan,,Armenia,7.27,/lists/rising-cities/yerevan/
+rising-cities,82,Oslo,,Norway,7.25,/lists/rising-cities/oslo/
+rising-cities,83,Hualien,,Taiwan,7.25,/lists/rising-cities/hualien/
+rising-cities,84,Essaouira,,Morocco,7.21,/lists/rising-cities/essaouira/
+rising-cities,85,Kanchanaburi,,Thailand,7.21,/lists/rising-cities/kanchanaburi/
+rising-cities,86,Cartago,,Costa Rica,7.20,/lists/rising-cities/cartago/
+rising-cities,87,Quetzaltenango,,Guatemala,7.17,/lists/rising-cities/quetzaltenango/
+rising-cities,88,The Hague,,Netherlands,7.07,/lists/rising-cities/the-hague/
+rising-cities,89,Da Lat,,Vietnam,7.07,/lists/rising-cities/da-lat/
+rising-cities,90,Christchurch,,New Zealand,7.06,/lists/rising-cities/christchurch/
+rising-cities,91,Ohrid,,North Macedonia,7.06,/lists/rising-cities/ohrid/
+rising-cities,92,Willemstad,,Curacao,7.05,/lists/rising-cities/willemstad/
+rising-cities,93,Nicosia,,Cyprus,7.00,/lists/rising-cities/nicosia/
+rising-cities,94,Bhaktapur,,Nepal,7.00,/lists/rising-cities/bhaktapur/
+rising-cities,95,Gyeongju,,South Korea,6.99,/lists/rising-cities/gyeongju/
+rising-cities,96,Banja Luka,,Bosnia and Herzegovina,6.96,/lists/rising-cities/banja-luka/
+rising-cities,97,Veliko Tarnovo,,Bulgaria,6.94,/lists/rising-cities/veliko-tarnovo/
+rising-cities,98,Heredia,,Costa Rica,6.83,/lists/rising-cities/heredia/
+rising-cities,99,Nis,,Serbia,6.83,/lists/rising-cities/nis/
+rising-cities,100,Dunedin,,New Zealand,6.75,/lists/rising-cities/dunedin/

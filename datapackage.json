@@ -1,0 +1,5538 @@
+{
+  "profile": "tabular-data-package",
+  "name": "worldworthy-100-2026",
+  "title": "The Worldworthy 100, 2026",
+  "version": "2026.1",
+  "homepage": "https://worldworthy.org",
+  "description": "The published 2026 edition: 43 complete venue and city rankings, 100 entries per list. Hotels, wellness hotels and company rankings are excluded.",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Worldworthy",
+      "role": "publisher",
+      "email": "press@worldworthy.org",
+      "path": "https://worldworthy.org"
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Worldworthy 100, 2026, worldworthy.org",
+      "path": "https://worldworthy.org/lists/"
+    }
+  ],
+  "keywords": [
+    "rankings",
+    "2026",
+    "venues",
+    "cities",
+    "worldworthy"
+  ],
+  "resources": [
+    {
+      "name": "airports",
+      "path": "airports.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Airports",
+      "description": "Airports, ranked by the passengers who pass through them.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 11138,
+      "hash": "sha256:73597baca49ab1b962962a06bc2aa1ee6f92cfdd120fefdc6fcc2f708ec9885c",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "all-rankings",
+      "path": "all_rankings.csv",
+      "profile": "tabular-data-resource",
+      "title": "All published rankings",
+      "description": "All eligible 2026 rankings combined.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 412666,
+      "hash": "sha256:b41ade7ac5091d3ec72c8abc712c7c4201277fb449f45138e7a65d6492f8dcde",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "archaeological-sites",
+      "path": "archaeological-sites.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Archaeological Sites",
+      "description": "Ruins and excavations open to visitors.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 11471,
+      "hash": "sha256:73d9fa556e2eba3b4c3206b78dec997df5e45f7e590c7e65c0508f975c1a7830",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "bakeries",
+      "path": "bakeries.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Bakeries",
+      "description": "Bread first.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 8729,
+      "hash": "sha256:0ba59120b872cadff72eab5e53963c648262cf2948453e4fbd6eccc5a5c712a3",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "bbq-smokehouses",
+      "path": "bbq-smokehouses.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: BBQ Smokehouses",
+      "description": "Smokehouses outside the United States.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 10479,
+      "hash": "sha256:06f14f4c5d09eaee9848d483e37679118263c40ee2af07a6aab4a7c78da7a906",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "beaches",
+      "path": "beaches.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Beaches",
+      "description": "Public beaches, ranked by what their visitors keep coming back for.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 8563,
+      "hash": "sha256:b8c18e82ab392f6f35b559ceaf7533c46dbf2378db9ae05bec704079d0f0c9a7",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "botanical-gardens",
+      "path": "botanical-gardens.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Botanical Gardens",
+      "description": "Gardens built around plants, from glasshouses to arboretums.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 12677,
+      "hash": "sha256:5b8125d0517c789e0ae31c8f11f699cb9a3528426191a7ea155b83be0c990645",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "breweries",
+      "path": "breweries.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Breweries",
+      "description": "Breweries with a taproom or visits.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 9942,
+      "hash": "sha256:0d042d30409e561dd17e737c223280a55a0703e05fd11eecfff292ffb3bb0d08",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "brunch-breakfast",
+      "path": "brunch-breakfast.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Brunch & Breakfast",
+      "description": "Where the morning is the point.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 10324,
+      "hash": "sha256:e6afb290a1aa5119782dfab891c1862e0f49b7b2a672091c5e3f6588ec7155a7",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "burgers",
+      "path": "burgers.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Burgers",
+      "description": "Burger restaurants, not chains.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 8405,
+      "hash": "sha256:3ca03ef1b3c82d13e229e590b7485a889a57691317ac5561580de429fabbe411",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "cable-cars",
+      "path": "cable-cars.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Cable Cars",
+      "description": "Cable cars, gondolas, funiculars and cog railways.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 10366,
+      "hash": "sha256:40e4c1dae7d81664e394072e6e9fa382188712e1a774def01a6e573bf5efe211",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "canyons-gorges",
+      "path": "canyons-gorges.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Canyons & Gorges",
+      "description": "Canyons and gorges you can reach.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 10475,
+      "hash": "sha256:6c53883e08a78ea16031c34759a58fce477f2719acf1a0f6b392d35da6bfd5d3",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "castles",
+      "path": "castles.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Castles & Fortresses",
+      "description": "Castles, fortresses and citadels.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 8723,
+      "hash": "sha256:a0fce540fe197f6b488707f3ab4d8f1dcb2d5a5ec94e0eb74c06fe03aadafc3b",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "cocktail-bars",
+      "path": "cocktail-bars.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Cocktail Bars",
+      "description": "Bars built around the cocktail.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 9464,
+      "hash": "sha256:8fd307025420c5b20997d35e02611b0f5ba68cff65bc3aec0a7f7d02d9caf68b",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "coffee-houses",
+      "path": "coffee-houses.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Coffee Houses",
+      "description": "Cafés where the coffee is the point.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 10289,
+      "hash": "sha256:c2f69f768282da9227081f4eb1f78812ea6d3bf1fa8cdca759b8b2b1de261add",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "food-markets",
+      "path": "food-markets.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Food Markets",
+      "description": "Covered and open-air markets with food stalls.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 10280,
+      "hash": "sha256:43b6fa316850d51b497c2169d35d8ff0b3fee6c38d499fe2d065aa2679671148",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "football-stadiums",
+      "path": "football-stadiums.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Football Stadiums",
+      "description": "Stadiums where football is played.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 11353,
+      "hash": "sha256:1b4a02516fc6fe805049a94ed0f007004d8b97dccc20c0eca091e6bf39dc1f74",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "hikes",
+      "path": "hikes.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Hikes",
+      "description": "Named trails with a start point, from an afternoon walk to a multi-day route.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 8671,
+      "hash": "sha256:f86ceaa9f87b60681d3d103ac6ed15ec1077d281903c858706147466a7dbefa3",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "ice-cream",
+      "path": "ice-cream.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Ice Cream Parlours",
+      "description": "Gelato, ice cream, kulfi and dondurma shops, ranked by the people who queue for them.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 9612,
+      "hash": "sha256:bc2eeb9ad13a182c1a7c10bfdb0dbdb4dba0fbaf96f4ca5d5df60219cdafb64c",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "kebab-doner",
+      "path": "kebab-doner.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Kebab & Döner",
+      "description": "Kebab, döner, shawarma and gyros shops.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 9779,
+      "hash": "sha256:935420394a0a754e3b7d656284a10bb4f5128a2ba91d769dfa3566e76e58a53f",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "landmarks",
+      "path": "landmarks.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Landmarks",
+      "description": "Monuments, towers, bridges, squares, stations and natural landmarks.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 9617,
+      "hash": "sha256:f8d7b1357f80a7088a160c12a446f3e2c1cbd48a8feb0cdd2d55696f52d74cf8",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "most-beautiful-cities-europe",
+      "path": "most-beautiful-cities-europe.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Most Beautiful Cities in Europe",
+      "description": "The European cities whose nature and architecture visitors rate highest.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 10029,
+      "hash": "sha256:1da07a06da7d173dcf82488fb12bc79f4a1a51aaa7b48ef551350dc4391adb91",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "most-beautiful-cities",
+      "path": "most-beautiful-cities.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Most Beautiful Cities",
+      "description": "Beaches, parks, gardens, palaces, landmarks and the countryside around them.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 8713,
+      "hash": "sha256:78ed467b90119c02496c4babbe33ca10c77648faadfdb4772f42517c238bbc7a",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "most-charming-cities",
+      "path": "most-charming-cities.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Most Charming Towns & Small Cities",
+      "description": "Municipalities of 5,000 to 300,000 residents that visitors rate like capitals.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 8657,
+      "hash": "sha256:5e24018e62f0e4ceba9409ffec02e602eb03c9cee92ddf94288e35aa190f0903",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "most-delicious-cities",
+      "path": "most-delicious-cities.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Most Delicious Cities",
+      "description": "The cities visitors love to eat in: pizza, ramen, ice cream, coffee, bakeries, markets and more.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 8756,
+      "hash": "sha256:d0841726ce1cedd209ec2c5df9253f60345faae7409f616f60c0714c523bc20f",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "most-loved-cities-americas",
+      "path": "most-loved-cities-americas.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Most Loved Cities in the Americas",
+      "description": "The cities of North, Central and South America that visitors love most, measured from the city’s ranked-eligible entries across the Worldworthy 100 lists.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 10084,
+      "hash": "sha256:aa4262f05e11fd30d54b45c3b2c6b38c837a246f94308f2944bf702bd2359742",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "most-loved-cities-asia-pacific",
+      "path": "most-loved-cities-asia-pacific.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Most Loved Cities in Asia-Pacific",
+      "description": "The cities of Asia and Oceania that visitors love most, measured from the city’s ranked-eligible entries across the Worldworthy 100 lists.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 10510,
+      "hash": "sha256:0b1c21c67d097cedbefe4410837838d69e8f487218af1c41b6f0f044dbc334e9",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "most-loved-cities-europe",
+      "path": "most-loved-cities-europe.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Most Loved Cities in Europe",
+      "description": "The European cities visitors love most, measured from the city’s ranked-eligible entries across the Worldworthy 100 lists.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 9179,
+      "hash": "sha256:89309fcbf4e9ebe41372678ec4d2c5330a55c8a91109a3ecff99cc43c1aa690a",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "most-loved-cities",
+      "path": "most-loved-cities.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Most Loved Cities",
+      "description": "The cities visitors love most, measured from the city’s ranked-eligible entries across the Worldworthy 100 lists.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 7940,
+      "hash": "sha256:a57a3ff9d06054554162d52de6cc25c78d366c03a2814c3f5c88d408a4c177c3",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "most-worldworthy-cities",
+      "path": "most-worldworthy-cities.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Most Worldworthy Cities",
+      "description": "The cities with the most Laureates across every Worldworthy 100 list.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 9155,
+      "hash": "sha256:c828db3138c58e78790bccdc50615b27fafce26523caa16d97485d709725cbdd",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "museums",
+      "path": "museums.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Museums",
+      "description": "Museums of every kind, open to the public, ranked by what visitors say about their visit, not by the size of the collection.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 10197,
+      "hash": "sha256:d2d67a248c70a5037a9ee5799f2665b0a2bd3b20a73b1374af0cb26fc3b092a7",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "palaces",
+      "path": "palaces.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Palaces",
+      "description": "Palaces open to visitors.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 9029,
+      "hash": "sha256:ee0608412583ca9a7c6e001918557ee3efd3cd5a30dd062116322537f9bd0fa9",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "parks",
+      "path": "parks.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Parks",
+      "description": "City and landscape parks, not national parks.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 8387,
+      "hash": "sha256:4af8655711d9a2c0b1665b0c58a650e1ab9c3b78d106cfc2150d734ac1ba848b",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "pastry-shops",
+      "path": "pastry-shops.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Pastry Shops",
+      "description": "Patisseries, confectioners and dessert shops.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 9612,
+      "hash": "sha256:576cd360096267493b54c95f19420982878dceb186707063d98d53f7e2a53944",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "pizzerias",
+      "path": "pizzerias.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Pizzerias",
+      "description": "Pizzerias, not Italian restaurants that also serve pizza.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 9076,
+      "hash": "sha256:d37cca3e1e3c9f6529e4b06cc1ae2599cb67eec636168dbf284073aef370bf85",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "ramen-shops",
+      "path": "ramen-shops.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Ramen",
+      "description": "Ramen and tsukemen shops on five continents.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 9721,
+      "hash": "sha256:cb61b17fc64d884246edb93f11c068418f13d6cd87558a3a03e661b511506a7b",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "rising-cities",
+      "path": "rising-cities.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Rising Cities",
+      "description": "Cities of 20,000 residents or more whose eligible entries are rated above the global mean while carrying fewer than 150,000 reviews in total: loved by the visitors who have found them, not yet famous.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 7272,
+      "hash": "sha256:7ea0b8c7f3761202478628737717c63c07d4cc12ec2f1d5c0c5772561f5e0acf",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "saunas-baths",
+      "path": "saunas-baths.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Saunas & Baths",
+      "description": "Public bathing with a day ticket: thermal baths, hot springs, onsen, hammams and banyas.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 10240,
+      "hash": "sha256:da05ca3f45b2b7d857cfd430bf73ae4feb2304d3333d5426e86056ba87834208",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "shopping-malls",
+      "path": "shopping-malls.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Shopping Malls",
+      "description": "Malls, shopping centres, historic arcades and outlet villages.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 10168,
+      "hash": "sha256:7ccb913e7c359155db5c7e15f1288306fef4dac980d9da037a814aede29ea6f3",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "show-caves",
+      "path": "show-caves.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Show Caves",
+      "description": "Caves open to visitors with tours, lights and a path.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 9457,
+      "hash": "sha256:bc3fd7e3c2e3f428f0b163988c310f8a77157aef8acd56c12afec2a56f9b734e",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "theme-parks",
+      "path": "theme-parks.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Theme Parks",
+      "description": "Amusement parks; water-only parks excluded.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 9979,
+      "hash": "sha256:f399cf5713c85906a2386880a83cbd5a0b14e809935844c0391da4698a802a26",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "waterfalls",
+      "path": "waterfalls.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Waterfalls",
+      "description": "Waterfalls you can reach, from roadside giants to a day’s hike.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 9476,
+      "hash": "sha256:7958ae6dbeef62999eb310f3765ed968944496010926d6fe514eb261a166c759",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "wineries",
+      "path": "wineries.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Wineries",
+      "description": "Wineries and cellars open to visitors, ranked by what visitors say about the visit, not by the wine in the glass.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 8767,
+      "hash": "sha256:13cf96afec462d8dc4ff7ba562c3311dd30743d428054429617f4d8a452ab1c9",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "zoos-aquariums",
+      "path": "zoos-aquariums.csv",
+      "profile": "tabular-data-resource",
+      "title": "The Worldworthy 100: Zoos & Aquariums",
+      "description": "Zoos and aquariums.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 10215,
+      "hash": "sha256:754cb042917e36e9bdc13eb647712bd75ac95a712776ba06275270d8be32f8ee",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Published list slug.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "airports",
+                "archaeological-sites",
+                "bakeries",
+                "bbq-smokehouses",
+                "beaches",
+                "botanical-gardens",
+                "breweries",
+                "brunch-breakfast",
+                "burgers",
+                "cable-cars",
+                "canyons-gorges",
+                "castles",
+                "cocktail-bars",
+                "coffee-houses",
+                "food-markets",
+                "football-stadiums",
+                "hikes",
+                "ice-cream",
+                "kebab-doner",
+                "landmarks",
+                "most-beautiful-cities",
+                "most-beautiful-cities-europe",
+                "most-charming-cities",
+                "most-delicious-cities",
+                "most-loved-cities",
+                "most-loved-cities-americas",
+                "most-loved-cities-asia-pacific",
+                "most-loved-cities-europe",
+                "most-worldworthy-cities",
+                "museums",
+                "palaces",
+                "parks",
+                "pastry-shops",
+                "pizzerias",
+                "ramen-shops",
+                "rising-cities",
+                "saunas-baths",
+                "shopping-malls",
+                "show-caves",
+                "theme-parks",
+                "waterfalls",
+                "wineries",
+                "zoos-aquariums"
+              ]
+            }
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "description": "Existing rank within this list; not recalculated.",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Published display name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City as supplied in the source CSV; empty when unspecified."
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "worldworthy_score",
+            "type": "number",
+            "description": "Public final Worldworthy Score, to two decimals, matching the live entry.",
+            "constraints": {
+              "required": true,
+              "minimum": 0,
+              "maximum": 9.99
+            }
+          },
+          {
+            "name": "page_url",
+            "type": "string",
+            "description": "Canonical pathname; prepend https://worldworthy.org.",
+            "constraints": {
+              "required": true,
+              "pattern": "^/lists/[a-z0-9-]+/[a-z0-9-]+/$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "list",
+          "rank"
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ]
+}

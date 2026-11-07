@@ -1,0 +1,101 @@
+list,rank,name,city,country,worldworthy_score,page_url
+shopping-malls,1,The Avenues Kuwait,Kuwait City,Kuwait,9.30,/lists/shopping-malls/the-avenues-kuwait/
+shopping-malls,2,Grand Indonesia,Jakarta,Indonesia,9.22,/lists/shopping-malls/grand-indonesia/
+shopping-malls,3,BarraShopping,Rio de Janeiro,Brazil,9.17,/lists/shopping-malls/barrashopping/
+shopping-malls,4,El Tesoro Parque Comercial,"Medellín, El Poblado, Medellin",Colombia,9.16,/lists/shopping-malls/el-tesoro-parque-comercial/
+shopping-malls,5,Galleria Vittorio Emanuele II,Milan,Italy,9.15,/lists/shopping-malls/galleria-vittorio-emanuele-ii/
+shopping-malls,6,Andares Shopping Mall,Zapopan,Mexico,9.14,/lists/shopping-malls/andares-shopping-mall/
+shopping-malls,7,Dubai Hills Mall,Dubai,United Arab Emirates,9.13,/lists/shopping-malls/dubai-hills-mall/
+shopping-malls,8,Salvador Shopping,Salvador,Brazil,9.13,/lists/shopping-malls/salvador-shopping/
+shopping-malls,9,Mall of the Emirates,Dubai,United Arab Emirates,9.12,/lists/shopping-malls/mall-of-the-emirates/
+shopping-malls,10,La Serrezuela Mall,Cartagena,Colombia,9.08,/lists/shopping-malls/la-serrezuela-mall/
+shopping-malls,11,Cairo Festival City Mall,Cairo,Egypt,9.07,/lists/shopping-malls/cairo-festival-city-mall/
+shopping-malls,12,Galerías Pacífico,Buenos Aires,Argentina,9.05,/lists/shopping-malls/galerias-pacifico/
+shopping-malls,13,Mall of Arabia Cairo,,Egypt,9.05,/lists/shopping-malls/mall-of-arabia-cairo/
+shopping-malls,14,Shopping Morumbi,São Paulo,Brazil,9.04,/lists/shopping-malls/shopping-morumbi/
+shopping-malls,15,Select Citywalk,New Delhi,India,9.03,/lists/shopping-malls/select-citywalk/
+shopping-malls,16,Centro Comercial Galería 360,Santo Domingo,Dominican Republic,9.03,/lists/shopping-malls/centro-comercial-galeria-360/
+shopping-malls,17,The Village Market,Nairobi,Kenya,9.03,/lists/shopping-malls/the-village-market/
+shopping-malls,18,Shopping JK Iguatemi,São Paulo,Brazil,9.00,/lists/shopping-malls/shopping-jk-iguatemi/
+shopping-malls,19,Shopping Barra,Salvador,Brazil,9.00,/lists/shopping-malls/shopping-barra/
+shopping-malls,20,Central Phuket Floresta,Wichit,Thailand,9.00,/lists/shopping-malls/central-phuket-floresta/
+shopping-malls,21,Iguatemi São Paulo,Jardim Paulistano,Brazil,8.99,/lists/shopping-malls/iguatemi-sao-paulo/
+shopping-malls,22,Pacific Fair,Broadbeach Waters,Australia,8.99,/lists/shopping-malls/pacific-fair/
+shopping-malls,23,Shopping Leblon,Rio de Janeiro,Brazil,8.99,/lists/shopping-malls/shopping-leblon/
+shopping-malls,24,Cenomi Al Nakheel Mall,Riyadh,Saudi Arabia,8.98,/lists/shopping-malls/cenomi-al-nakheel-mall/
+shopping-malls,25,Multiplaza Pacific,Panama City,Panama,8.98,/lists/shopping-malls/multiplaza-pacific/
+shopping-malls,26,Queen Victoria Building,Sydney,Australia,8.98,/lists/shopping-malls/queen-victoria-building/
+shopping-malls,27,Yas Mall,Abu Dhabi,United Arab Emirates,8.98,/lists/shopping-malls/yas-mall/
+shopping-malls,28,Viviana Mall,Thane,India,8.98,/lists/shopping-malls/viviana-mall/
+shopping-malls,29,SM Mall of Asia,Pasay City,Philippines,8.98,/lists/shopping-malls/sm-mall-of-asia/
+shopping-malls,30,Canal Walk,Cape Town,South Africa,8.97,/lists/shopping-malls/canal-walk/
+shopping-malls,31,Trafford Centre,Stretford,United Kingdom,8.97,/lists/shopping-malls/trafford-centre/
+shopping-malls,32,Mall of Africa,Midrand,South Africa,8.97,/lists/shopping-malls/mall-of-africa/
+shopping-malls,33,Ibn Battuta Mall,Dubai,United Arab Emirates,8.97,/lists/shopping-malls/ibn-battuta-mall/
+shopping-malls,34,Phoenix Palladium,Mumbai,India,8.97,/lists/shopping-malls/phoenix-palladium/
+shopping-malls,35,The Hub Karen,Nairobi City,Kenya,8.97,/lists/shopping-malls/the-hub-karen/
+shopping-malls,36,San Stefano Grand Plaza,El Raml 2,Egypt,8.97,/lists/shopping-malls/san-stefano-grand-plaza/
+shopping-malls,37,Ikeja City Mall,Ojodu,Nigeria,8.97,/lists/shopping-malls/ikeja-city-mall/
+shopping-malls,38,Unicenter,Martínez,Argentina,8.97,/lists/shopping-malls/unicenter/
+shopping-malls,39,Accra Mall,Accra,Ghana,8.97,/lists/shopping-malls/accra-mall/
+shopping-malls,40,Pavilion Kuala Lumpur,Kuala Lumpur,Malaysia,8.97,/lists/shopping-malls/pavilion-kuala-lumpur/
+shopping-malls,41,SM Megamall,Mandaluyong City,Philippines,8.97,/lists/shopping-malls/sm-megamall/
+shopping-malls,42,Quest Mall,Kolkata,India,8.96,/lists/shopping-malls/quest-mall/
+shopping-malls,43,Kingdom Centre Mall,Riyadh,Saudi Arabia,8.96,/lists/shopping-malls/kingdom-centre-mall/
+shopping-malls,44,Menlyn Park,Pretoria,South Africa,8.96,/lists/shopping-malls/menlyn-park/
+shopping-malls,45,UB City,Bengaluru,India,8.96,/lists/shopping-malls/ub-city/
+shopping-malls,46,Gateway Theatre of Shopping,uMhlanga,South Africa,8.96,/lists/shopping-malls/gateway-theatre-of-shopping/
+shopping-malls,47,ParkLake Shopping Center,Bucharest,Romania,8.96,/lists/shopping-malls/parklake-shopping-center/
+shopping-malls,48,Point 90 Mall,New Cairo 1,Egypt,8.95,/lists/shopping-malls/point-90-mall/
+shopping-malls,49,Town Center Costa del Este,Panama City,Panama,8.95,/lists/shopping-malls/town-center-costa-del-este/
+shopping-malls,50,The Galleria Al Maryah Island,Abu Dhabi,United Arab Emirates,8.95,/lists/shopping-malls/the-galleria-al-maryah-island/
+shopping-malls,51,Oman Avenues Mall,Muscat,Oman,8.95,/lists/shopping-malls/oman-avenues-mall/
+shopping-malls,52,Downtown Center,Santo Domingo,Dominican Republic,8.94,/lists/shopping-malls/downtown-center/
+shopping-malls,53,Bonifacio High Street,Taguig,Philippines,8.94,/lists/shopping-malls/bonifacio-high-street/
+shopping-malls,54,Rosebank Mall,Johannesburg,South Africa,8.94,/lists/shopping-malls/rosebank-mall/
+shopping-malls,55,Oakland Mall,Guatemala City,Guatemala,8.92,/lists/shopping-malls/oakland-mall/
+shopping-malls,56,Al Kout Mall,Fahaheel,Kuwait,8.91,/lists/shopping-malls/al-kout-mall/
+shopping-malls,57,BlueMall Santo Domingo,Santo Domingo,Dominican Republic,8.91,/lists/shopping-malls/bluemall-santo-domingo/
+shopping-malls,58,Assima Mall,,Kuwait,8.90,/lists/shopping-malls/assima-mall/
+shopping-malls,59,Two Rivers Mall,Nairobi,Kenya,8.90,/lists/shopping-malls/two-rivers-mall/
+shopping-malls,60,Via Riyadh,Riyadh,Saudi Arabia,8.89,/lists/shopping-malls/via-riyadh/
+shopping-malls,61,Multiplaza Curridabat,Curridabat,Costa Rica,8.89,/lists/shopping-malls/multiplaza-curridabat/
+shopping-malls,62,Shinsegae Centum City,Haeundae,South Korea,8.89,/lists/shopping-malls/shinsegae-centum-city/
+shopping-malls,63,Greenbelt Makati,Makati City,Philippines,8.88,/lists/shopping-malls/greenbelt-makati/
+shopping-malls,64,The Grove Mall of Namibia,Windhoek,Namibia,8.87,/lists/shopping-malls/the-grove-mall-of-namibia/
+shopping-malls,65,Ngee Ann City,Singapore,Singapore,8.87,/lists/shopping-malls/ngee-ann-city/
+shopping-malls,66,Galerías La Paz,La Paz,Mexico,8.86,/lists/shopping-malls/galerias-la-paz/
+shopping-malls,67,Mall Casacostanera,"Vitacura, Las Condes",Chile,8.86,/lists/shopping-malls/mall-casacostanera/
+shopping-malls,68,Burlington Arcade,London,United Kingdom,8.86,/lists/shopping-malls/burlington-arcade/
+shopping-malls,69,Alto Las Condes,Las Condes,Chile,8.86,/lists/shopping-malls/alto-las-condes/
+shopping-malls,70,The Exchange TRX,Kuala Lumpur,Malaysia,8.85,/lists/shopping-malls/the-exchange-trx/
+shopping-malls,71,Le Bon Marché,Paris,France,8.85,/lists/shopping-malls/le-bon-marche/
+shopping-malls,72,Lotte World Mall,Songpa,South Korea,8.85,/lists/shopping-malls/lotte-world-mall/
+shopping-malls,73,The First Mall,Al Giza,Egypt,8.85,/lists/shopping-malls/the-first-mall/
+shopping-malls,74,Oxford Street Mall Osu,Accra,Ghana,8.85,/lists/shopping-malls/oxford-street-mall-osu/
+shopping-malls,75,Sky Mall,Lagos,Nigeria,8.84,/lists/shopping-malls/sky-mall/
+shopping-malls,76,The Palms Shopping Mall,Lekki,Nigeria,8.84,/lists/shopping-malls/the-palms-shopping-mall/
+shopping-malls,77,Victoria Wharf Shopping Centre,Cape Town,South Africa,8.84,/lists/shopping-malls/victoria-wharf-shopping-centre/
+shopping-malls,78,Las Torres Mall,La Paz,Bolivia,8.84,/lists/shopping-malls/las-torres-mall/
+shopping-malls,79,Michenzani Mall,Zanzibar,Tanzania,8.84,/lists/shopping-malls/michenzani-mall/
+shopping-malls,80,Fünf Höfe,Munich,Germany,8.84,/lists/shopping-malls/funf-hofe/
+shopping-malls,81,Artz Pedregal,"Álvaro Obregón, Mexico City",Mexico,8.84,/lists/shopping-malls/artz-pedregal/
+shopping-malls,82,Plaza Carolina,Miraflores,Costa Rica,8.84,/lists/shopping-malls/plaza-carolina/
+shopping-malls,83,Westfield Bondi Junction,Bondi Junction,Australia,8.83,/lists/shopping-malls/westfield-bondi-junction/
+shopping-malls,84,Shopping Cidade Jardim,São Paulo,Brazil,8.83,/lists/shopping-malls/shopping-cidade-jardim/
+shopping-malls,85,IFC Mall Shanghai,Pu Dong Xin Qu,China,8.83,/lists/shopping-malls/ifc-mall-shanghai/
+shopping-malls,86,Gerngross,Vienna,Austria,8.83,/lists/shopping-malls/gerngross/
+shopping-malls,87,M Peace Plaza,Kigali,Rwanda,8.83,/lists/shopping-malls/m-peace-plaza/
+shopping-malls,88,Emporium Melbourne,Melbourne,Australia,8.83,/lists/shopping-malls/emporium-melbourne/
+shopping-malls,89,Sea Plaza Dakar,Dakar,Senegal,8.83,/lists/shopping-malls/sea-plaza-dakar/
+shopping-malls,90,Mall San Pedro,San Pedro,Costa Rica,8.83,/lists/shopping-malls/mall-san-pedro/
+shopping-malls,91,Pacific Place,,Hong Kong,8.83,/lists/shopping-malls/pacific-place/
+shopping-malls,92,Guadalajara Parks Shopping Mall,Guadalajara,Mexico,8.83,/lists/shopping-malls/guadalajara-parks-shopping-mall/
+shopping-malls,93,Patio Bullrich,Buenos Aires,Argentina,8.82,/lists/shopping-malls/patio-bullrich/
+shopping-malls,94,SM Seaside City Cebu,Cebu City,Philippines,8.82,/lists/shopping-malls/sm-seaside-city-cebu/
+shopping-malls,95,Azur City Mall,Ben Arous,Tunisia,8.82,/lists/shopping-malls/azur-city-mall/
+shopping-malls,96,Edna Mall,Addis Ababa,Ethiopia,8.82,/lists/shopping-malls/edna-mall/
+shopping-malls,97,Marina Mall Kuwait,Kuwait City,Kuwait,8.82,/lists/shopping-malls/marina-mall-kuwait/
+shopping-malls,98,Sihlcity,Zürich,Switzerland,8.81,/lists/shopping-malls/sihlcity/
+shopping-malls,99,Doha Mall,Doha,Qatar,8.81,/lists/shopping-malls/doha-mall/
+shopping-malls,100,Glattzentrum,Wallisellen,Switzerland,8.81,/lists/shopping-malls/glattzentrum/

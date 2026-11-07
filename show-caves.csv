@@ -1,0 +1,101 @@
+list,rank,name,city,country,worldworthy_score,page_url
+show-caves,1,Grotte di Frasassi,San Vittore,Italy,9.54,/lists/show-caves/grotte-di-frasassi/
+show-caves,2,Aven d’Orgnac,Orgnac-l'Aven,France,9.51,/lists/show-caves/aven-dorgnac/
+show-caves,3,Prohodna Cave,Lukovit,Bulgaria,9.48,/lists/show-caves/prohodna-cave/
+show-caves,4,Blanchard Springs Caverns,Mountain View,United States,9.46,/lists/show-caves/blanchard-springs-caverns/
+show-caves,5,Grotta Gigante,Sgonico,Italy,9.45,/lists/show-caves/grotta-gigante/
+show-caves,6,Perama Cave,Perama,Greece,9.40,/lists/show-caves/perama-cave/
+show-caves,7,Tuckaleechee Caverns,Townsend,United States,9.40,/lists/show-caves/tuckaleechee-caverns/
+show-caves,8,Kastania Cave,,Greece,9.39,/lists/show-caves/kastania-cave/
+show-caves,9,Ialomiței Cave,Moroeni,Romania,9.39,/lists/show-caves/ialomitei-cave/
+show-caves,10,Marble Arch Caves (Open Year-Round),Enniskillen,United Kingdom,9.38,/lists/show-caves/marble-arch-caves-open-year-round/
+show-caves,11,Yagodinska Cave,Gyovren,Bulgaria,9.38,/lists/show-caves/yagodinska-cave/
+show-caves,12,Ohio Caverns,West Liberty,United States,9.37,/lists/show-caves/ohio-caverns/
+show-caves,13,Bluff Dwellers Cave,Noel,United States,9.37,/lists/show-caves/bluff-dwellers-cave/
+show-caves,14,Devil’s Throat Cave,Gyovren,Bulgaria,9.36,/lists/show-caves/devils-throat-cave/
+show-caves,15,Hidden River Cave,Horse Cave,United States,9.35,/lists/show-caves/hidden-river-cave/
+show-caves,16,Cueva de Valporquero,Vegacervera,Spain,9.35,/lists/show-caves/cueva-de-valporquero/
+show-caves,17,Sloupsko-šošůvské jeskyně,Sloup,Czechia,9.35,/lists/show-caves/sloupsko-sosuvske-jeskyne/
+show-caves,18,Kents Cavern Prehistoric Caves,Torquay,United Kingdom,9.35,/lists/show-caves/kents-cavern-prehistoric-caves/
+show-caves,19,Resavska pećina,Divljakovac,Serbia,9.35,/lists/show-caves/resavska-pecina/
+show-caves,20,Saeva Dupka,Brestnitsa,Bulgaria,9.35,/lists/show-caves/saeva-dupka/
+show-caves,21,Szent István Cave,Miskolc,Hungary,9.34,/lists/show-caves/szent-istvan-cave/
+show-caves,22,Blue Caves Zakynthos,Zakinthos,Greece,9.34,/lists/show-caves/blue-caves-zakynthos/
+show-caves,23,Uhlovitsa Cave,Uhlovitsa,Bulgaria,9.34,/lists/show-caves/uhlovitsa-cave/
+show-caves,24,Vranjaca Cave,Kotlenice,Croatia,9.33,/lists/show-caves/vranjaca-cave/
+show-caves,25,North Caves Maastricht Underground,Maastricht,Netherlands,9.33,/lists/show-caves/north-caves-maastricht-underground/
+show-caves,26,Alistrati Cave,Alistrati,Greece,9.32,/lists/show-caves/alistrati-cave/
+show-caves,27,Lake Cave,Margaret River,Australia,9.32,/lists/show-caves/lake-cave/
+show-caves,28,Inner Space Cavern,Georgetown,United States,9.32,/lists/show-caves/inner-space-cavern/
+show-caves,29,Lost World Caverns,Lewisburg,United States,9.32,/lists/show-caves/lost-world-caverns/
+show-caves,30,Fingal’s Cave,Isle of Staffa,United Kingdom,9.32,/lists/show-caves/fingals-cave/
+show-caves,31,Devetashka Cave,Pordim,Bulgaria,9.32,/lists/show-caves/devetashka-cave/
+show-caves,32,Cave Snejanka,Peshtera,Bulgaria,9.32,/lists/show-caves/cave-snejanka/
+show-caves,33,Kapsia Cave,Arcadia,Greece,9.32,/lists/show-caves/kapsia-cave/
+show-caves,34,Lost Canyon Cave and Nature Trail,Ridgedale,United States,9.31,/lists/show-caves/lost-canyon-cave-and-nature-trail/
+show-caves,35,Cosmic Cavern,Berryville,United States,9.31,/lists/show-caves/cosmic-cavern/
+show-caves,36,Lipa cave,Cetinje,Montenegro,9.31,/lists/show-caves/lipa-cave/
+show-caves,37,Baradla Cave,Jósvafő,Hungary,9.31,/lists/show-caves/baradla-cave/
+show-caves,38,Aggitis Cave,Aggitis,Greece,9.31,/lists/show-caves/aggitis-cave/
+show-caves,39,Javoříčské jeskyně,Slavětín u Litovle,Czechia,9.31,/lists/show-caves/javoricske-jeskyne/
+show-caves,40,Timpanogos Cave,American Fork,United States,9.31,/lists/show-caves/timpanogos-cave/
+show-caves,41,Cave of the Mounds,Blue Mounds,United States,9.30,/lists/show-caves/cave-of-the-mounds/
+show-caves,42,Cuevas del Águila,Ramacastañas,Spain,9.30,/lists/show-caves/cuevas-del-aguila/
+show-caves,43,Coves d’Artà,Canyamel Platja,Spain,9.30,/lists/show-caves/coves-darta/
+show-caves,44,Penn’s Cave and Wildlife Park,Centre Hall,United States,9.30,/lists/show-caves/penns-cave-and-wildlife-park/
+show-caves,45,Balcarka Cave,Ostrov u Macochy,Czechia,9.30,/lists/show-caves/balcarka-cave/
+show-caves,46,Grotte des Demoiselles,Saint-Bauzille-de-Putois,France,9.30,/lists/show-caves/grotte-des-demoiselles/
+show-caves,47,Lurgrotte,Semriach,Austria,9.30,/lists/show-caves/lurgrotte/
+show-caves,48,Pertosa-Auletta Caves,Pertosa,Italy,9.30,/lists/show-caves/pertosa-auletta-caves/
+show-caves,49,Grotta Mangiapane,Custonaci,Italy,9.29,/lists/show-caves/grotta-mangiapane/
+show-caves,50,Grotte de Clamouse,Saint-Jean-de-Fos,France,9.29,/lists/show-caves/grotte-de-clamouse/
+show-caves,51,Mylodon Cave Natural Monument,Natales,Chile,9.29,/lists/show-caves/mylodon-cave-natural-monument/
+show-caves,52,Toirano Cave,Toirano,Italy,9.29,/lists/show-caves/toirano-cave/
+show-caves,53,Drachenhöhle Syrau,Rosenbach,Germany,9.28,/lists/show-caves/drachenhohle-syrau/
+show-caves,54,White Scar Cave,Carnforth,United Kingdom,9.28,/lists/show-caves/white-scar-cave/
+show-caves,55,Grotta del Vento,Fornovolasco,Italy,9.28,/lists/show-caves/grotta-del-vento/
+show-caves,56,Río Secreto,Playa del Carmen,Mexico,9.28,/lists/show-caves/rio-secreto/
+show-caves,57,Grotta Is Zuddas,Santadi,Italy,9.28,/lists/show-caves/grotta-is-zuddas/
+show-caves,58,Cueva de Mendukilo,Astitz,Spain,9.28,/lists/show-caves/cueva-de-mendukilo/
+show-caves,59,Capricorn Caves,The Caves,Australia,9.28,/lists/show-caves/capricorn-caves/
+show-caves,60,Grotte di Borgio Verezzi,Borgio Verezzi,Italy,9.28,/lists/show-caves/grotte-di-borgio-verezzi/
+show-caves,61,Gruta Catedral,Bonito,Brazil,9.28,/lists/show-caves/gruta-catedral/
+show-caves,62,Stopić Cave,Zlatibor,Serbia,9.28,/lists/show-caves/stopic-cave/
+show-caves,63,Saalfeld Fairy Grottoes,Saalfeld,Germany,9.28,/lists/show-caves/saalfeld-fairy-grottoes/
+show-caves,64,Jaskinia Mylna,Kościelisko,Poland,9.27,/lists/show-caves/jaskinia-mylna/
+show-caves,65,Stump Cross Caverns,Greenhow Hill,United Kingdom,9.27,/lists/show-caves/stump-cross-caverns/
+show-caves,66,Stanišovská Cave,Liptovský Ján,Slovakia,9.27,/lists/show-caves/stanisovska-cave/
+show-caves,67,Titlis Glacier Cave,Engelberg,Switzerland,9.26,/lists/show-caves/titlis-glacier-cave/
+show-caves,68,Peștera Meziad,Remetea,Romania,9.26,/lists/show-caves/pestera-meziad/
+show-caves,69,Mammoth Cave Margaret River,Margaret River,Australia,9.26,/lists/show-caves/mammoth-cave-margaret-river/
+show-caves,70,Grotte de Lombrives,Ussat,France,9.26,/lists/show-caves/grotte-de-lombrives/
+show-caves,71,Cave of Wonders,La Caña,Dominican Republic,9.25,/lists/show-caves/cave-of-wonders/
+show-caves,72,Lurgrotte Peggau,Peggau,Austria,9.25,/lists/show-caves/lurgrotte-peggau/
+show-caves,73,Harmanecka Cave,Harmanec,Slovakia,9.25,/lists/show-caves/harmanecka-cave/
+show-caves,74,Cross cave,Polica,Slovenia,9.25,/lists/show-caves/cross-cave/
+show-caves,75,Cueva del Esplendor,Jardín,Colombia,9.24,/lists/show-caves/cueva-del-esplendor/
+show-caves,76,Ngilgi Cave Ancient Lands Experience,Yallingup,Australia,9.24,/lists/show-caves/ngilgi-cave-ancient-lands-experience/
+show-caves,77,Gruta da Lapinha,Lapinha,Brazil,9.23,/lists/show-caves/gruta-da-lapinha/
+show-caves,78,Cueva Del Nitro,Zapatoca,Colombia,9.23,/lists/show-caves/cueva-del-nitro/
+show-caves,79,Kong Lor Cave,Khounkham,Laos,9.22,/lists/show-caves/kong-lor-cave/
+show-caves,80,Lot Cave,Takua Thung,Thailand,9.22,/lists/show-caves/lot-cave/
+show-caves,81,Cueva de Saturno,Carbonera,Cuba,9.22,/lists/show-caves/cueva-de-saturno/
+show-caves,82,Sumaguing Cave,Sagada,Philippines,9.22,/lists/show-caves/sumaguing-cave/
+show-caves,83,Mladec Caves,Mladeč,Czechia,9.22,/lists/show-caves/mladec-caves/
+show-caves,84,Pestera Polovragi,Polovragi,Romania,9.22,/lists/show-caves/pestera-polovragi/
+show-caves,85,Mole Creek Caves,Mayberry,Australia,9.21,/lists/show-caves/mole-creek-caves/
+show-caves,86,Wierzchowska Gorna Cave,Wierzchowie,Poland,9.21,/lists/show-caves/wierzchowska-gorna-cave/
+show-caves,87,Grutas de São Miguel Dia e Noite,Bonito,Brazil,9.21,/lists/show-caves/grutas-de-sao-miguel-dia-e-noite/
+show-caves,88,Jaskinia Mrozna,Kościelisko,Poland,9.21,/lists/show-caves/jaskinia-mrozna/
+show-caves,89,Cueva de la Pileta,Benaoján,Spain,9.21,/lists/show-caves/cueva-de-la-pileta/
+show-caves,90,Cueva de las Ventanas,Píñar,Spain,9.21,/lists/show-caves/cueva-de-las-ventanas/
+show-caves,91,Mitchelstown Cave,Burncourt,Ireland,9.20,/lists/show-caves/mitchelstown-cave/
+show-caves,92,Anna Cave Lillafured,Miskolc,Hungary,9.20,/lists/show-caves/anna-cave-lillafured/
+show-caves,93,Važecká cave,Važec,Slovakia,9.20,/lists/show-caves/vazecka-cave/
+show-caves,94,Jasovska Cave,Jasov,Slovakia,9.20,/lists/show-caves/jasovska-cave/
+show-caves,95,Gombasecka Cave,Slavec,Slovakia,9.20,/lists/show-caves/gombasecka-cave/
+show-caves,96,Grotta di Villanova,Lusevera,Italy,9.20,/lists/show-caves/grotta-di-villanova/
+show-caves,97,Phong Nha Cave,Phong Nha,Vietnam,9.20,/lists/show-caves/phong-nha-cave/
+show-caves,98,Cayman Crystal Caves,Old Man Bay,Cayman Islands,9.20,/lists/show-caves/cayman-crystal-caves/
+show-caves,99,Grottes de Beni Add,Aïn Fezza,Algeria,9.20,/lists/show-caves/grottes-de-beni-add/
+show-caves,100,Pekel Cave,Šempeter v Savinjski Dolini,Slovenia,9.20,/lists/show-caves/pekel-cave/
